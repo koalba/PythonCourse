@@ -43,8 +43,14 @@ A normal year has 365 days, leap years have 366 vith an extra day in February. <
 'On every year that is evenly divisible by 4, except if that year is divisible by 100, unless it is also divisible by 400.'
 
 ### Pizza Order Practice
+Congratulations! You've got a job at Python Pizza. Your fist job is to build an automatic pizza order program. <br />
+Based on the user's order, work out their final bill.
 
 ### Love Calculator
+Write a program that tests the compatibility between two people. <br />
+Take both people's name and check for the number of times the letters in the word TRUE occurs. Then, check for the number of times the letters in the word LOVE occurs. Combine these numbers to make a who digit number. <br />
+Less than 10 or more than 90 --- 'You go together like coke and mentos' <br />
+Between 40 and 50 --- 'You are alright together'
 
 ### Treasure Island
 
