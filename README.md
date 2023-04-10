@@ -5,10 +5,12 @@ Generate a Band Name with the user's city and pet name.
 
 ## Data Type
 Write a program that adds the digits in a 2 digit number.
+
 Modifyed to work for more than 2 digit numbers.
 
 ## BMI Calculator
 Write a program that calculates the Body Mass Index (BMI) form a user's weight and height.
+
 The BMI is calculated by dividing the person's weight (kg) by the square of their height (m).
 
 ## Your Life in Weeks
