@@ -31,11 +31,11 @@ Even numbers can be divided by 2 with no remainder.
 ### BMI 2.0
 Upgrade of the las BMI Calculator. <br />
 It should tell the interpretation of their BMI based on the value: <br />
-< 18.5    -> Underweight
+Less than 18.5 -> Underweight
 18.5 - 25 -> Normal weight
-25 - 30   -> Overweight
-30 - 35   -> Obese
-> 35      -> Clinically Obese
+25 - 30 -> Overweight
+30 - 35 -> Obese
+Over 35 -> Clinically Obese
 
 ### Leap Year
 
