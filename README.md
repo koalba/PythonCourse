@@ -30,7 +30,7 @@ Even numbers can be divided by 2 with no remainder.
 
 ### BMI 2.0
 Upgrade of the las BMI Calculator. <br />
-It should tell the interpretation of their BMI based on the value: <br />
+It should tell the interpretation of their BMI based on the value: <br /> <br />
 Less than 18.5 --- Underweight <br />
 18.5 - 25 -------- Normal weight <br />
 25 - 30 ---------- Overweight <br />
@@ -48,7 +48,7 @@ Based on the user's order, work out their final bill.
 
 ### Love Calculator
 Write a program that tests the compatibility between two people. <br />
-Take both people's name and check for the number of times the letters in the word TRUE occurs. Then, check for the number of times the letters in the word LOVE occurs. Combine these numbers to make a who digit number. <br />
+Take both people's name and check for the number of times the letters in the word TRUE occurs. Then, check for the number of times the letters in the word LOVE occurs. Combine these numbers to make a who digit number. <br /> <br />
 Less than 10 or more than 90 --- 'You go together like coke and mentos' <br />
 Between 40 and 50 --- 'You are alright together'
 
