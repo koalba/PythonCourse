@@ -5,7 +5,7 @@
 ### Band Name Generator
 Generate a Band Name with the user's city and pet name.
 
-## 0DAY 2 - Understanding Data Types and How to Manipulate Strings:
+## DAY 2 - Understanding Data Types and How to Manipulate Strings:
 
 ### Data Type
 Write a program that adds the digits in a 2 digit number. <br />
