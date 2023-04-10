@@ -53,7 +53,7 @@ Less than 10 or more than 90 --- 'You go together like coke and mentos' <br />
 Between 40 and 50 --- 'You are alright together'
 
 ### Treasure Island
-Create a 'Choose your own adventure' Game using this flowchart:
+Create a 'Choose your own adventure' Game using this flowchart: <br />
 ![Treasure Island Flowchart](https://user-images.githubusercontent.com/34134103/230965977-d20bb5a5-39b2-4b22-9016-f8a4a30ae062.png)
 
 ## DAY 4 - Randomisation and Python Lists:
