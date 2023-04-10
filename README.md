@@ -38,6 +38,9 @@ Less than 18.5 --- Underweight <br />
 Over 35 ---------- Clinically Obese <br />
 
 ### Leap Year
+Write a program that works out wether if a given year is a leap year. <br />
+A normal year has 365 days, leap years have 366 vith an extra day in February. <br />
+'On every year that is evenly divisible by 4, except if that year is divisible by 100, unless it is also divisible by 400.'
 
 ### Pizza Order Practice
 
