@@ -18,7 +18,7 @@ Well... I'm taking a Python course, and I'm going to document a bit mu Journey. 
 
 ## DAY 1 - Working with Variables in Python to Manage Data:
 
-### · Band Name Generator ·
+### · Band Name Generator · <sub><sup>FINAL WORK</sup></sub>
 Generate a Band Name with the user's city and pet name.
 
 ## DAY 2 - Understanding Data Types and How to Manipulate Strings:
@@ -35,7 +35,7 @@ The BMI is calculated by dividing the person's weight (kg) by the square of thei
 Create a program using maths and f-Strings that tell us how many days, weeks and months we have left if we live up to 90 years old. <br />
 1 year = 365 days, 52 weeks and 12 months
 
-### · Tip Calculator · <sub style="margin-left: 1rem;"><sup>DAY 1 - FINAL WORK</sup></sub>
+### · Tip Calculator · <sub><sup>FINAL WORK</sup></sub>
 Calculate the tip based on the total bill, the tip percentage and how many people are going to pay.
 
 ## DAY 3 - Control Flow and Logical Operators:
@@ -68,7 +68,7 @@ Take both people's name and check for the number of times the letters in the wor
 Less than 10 or more than 90 --- 'You go together like coke and mentos' <br />
 Between 40 and 50 --- 'You are alright together'
 
-### · Treasure Island ·
+### · Treasure Island · <sub><sup>FINAL WORK</sup></sub>
 Create a 'Choose your own adventure' Game using this flowchart: <br />
 [Treasure Island Flowchart](https://viewer.diagrams.net/index.html?highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload)
 
@@ -85,7 +85,7 @@ Write a program which will mark a spot with an x. The map is made of 3 rows of b
 The program should allow you to enter the position of the treasure using a twi digit system. The first digit is the horizontal column number and the second is the vertical number. <br /> <br />
 Modified to be a find the treasure game, with limited attempts to find it.
 
-### · Rock Paper Scissors ·
+### · Rock Paper Scissors · <sub><sup>FINAL WORK</sup></sub>
 Create a Rock Paper Scissors Game.
 
 ## DAY 5 - Python Loops:
@@ -106,7 +106,7 @@ Write a program that automatically prints the solution to the FizzBuzz game. <br
 - [x] When the number is divisible by 5. then instead of the number, it should print 'Buzz'.
 - [x] When the number is divisible by both 3 and 5 then instead of the number, it should print 'FizzBuzz'.
 
-### · Password Generator ·
+### · Password Generator · <sub><sup>FINAL WORK</sup></sub>
 Write a Random Password Generator with the amount of letters, symbols and numbers chosen by the user. <br />
 
 ## DAY 6 - Python Functions & Karel:
