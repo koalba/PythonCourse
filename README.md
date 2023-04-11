@@ -70,6 +70,7 @@ The program should allow you to enter the position of the treasure using a twi d
 Modified to be a find the treasure game, with limited attempts to find it.
 
 ### · Rock Paper Scissors ·
+Create a Rock Paper Scissors Game.
 
 ## DAY 5 - Python Loops:
 
