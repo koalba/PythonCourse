@@ -35,11 +35,7 @@ The BMI is calculated by dividing the person's weight (kg) by the square of thei
 Create a program using maths and f-Strings that tell us how many days, weeks and months we have left if we live up to 90 years old. <br />
 1 year = 365 days, 52 weeks and 12 months
 
-### · Tip Calculator · 
-<sup>DAY 1 - FINAL WORK</sup> <br />
-
----
-
+### · Tip Calculator · <sup>DAY 1 - FINAL WORK</sup>
 Calculate the tip based on the total bill, the tip percentage and how many people are going to pay.
 
 ## DAY 3 - Control Flow and Logical Operators:
