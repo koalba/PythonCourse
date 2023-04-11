@@ -18,7 +18,7 @@ Well... I'm taking a Python course, and I'm going to document a bit mu Journey. 
 
 ## DAY 1 - Working with Variables in Python to Manage Data:
 
-### · Band Name Generator · <sub color="grey"><sup>FINAL WORK</sup></sub>
+### · Band Name Generator · <sub style="color:green"><sup>FINAL WORK</sup></sub>
 Generate a Band Name with the user's city and pet name.
 
 ## DAY 2 - Understanding Data Types and How to Manipulate Strings:
