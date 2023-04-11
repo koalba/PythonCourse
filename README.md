@@ -74,6 +74,25 @@ Create a Rock Paper Scissors Game.
 
 ## DAY 5 - Python Loops:
 
+### · Average Height ·
+Write a program that calculates the average student height from a list of heights.
+
+### · High Score ·
+Write a program that calculates the highest score from a list of scores. Not allowed to use the min() max() functions.
+
+### · Adding Even Numbers ·
+Write a program that calculates the sum of all the even numbers from 1 to 100, including both.
+
+### · The FizzBuzz Job Interview Question ·
+Write a program that automatically prints the solution to the FizzBuzz game. <br />
+- [x] Your program should print each number from 1 to 100 in turn.
+- [x] When the number is divisible by 3 the instead of the number, it should print 'Fizz'.
+- [x] When the number is divisible by 5. then instead of the number, it should print 'Buzz'.
+- [x] When the number is divisible by both 3 and 5 then instead of the number, it should print 'FizzBuzz'.
+
+### · Password Generator ·
+Write a Random Password Generator with the amount of letters, symbols and numbers chosen by the user. <br />
+
 ## DAY 6 - Python Functions & Karel:
 
 ## DAY 7 - Hangman:
