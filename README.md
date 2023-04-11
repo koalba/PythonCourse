@@ -2,7 +2,7 @@
 
 ## DAY 1 - Working with Variables in Python to Manage Data:
 
-### · Band Name Generator ·
+### [x] · Band Name Generator ·
 Generate a Band Name with the user's city and pet name.
 
 ## DAY 2 - Understanding Data Types and How to Manipulate Strings:
