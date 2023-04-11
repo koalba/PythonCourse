@@ -5,8 +5,6 @@
 ### · Band Name Generator ·
 Generate a Band Name with the user's city and pet name.
 
-- [x] DONE
-
 ## DAY 2 - Understanding Data Types and How to Manipulate Strings:
 
 ### · Data Type ·
