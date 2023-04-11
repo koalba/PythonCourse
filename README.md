@@ -65,9 +65,9 @@ Write a virtual coin toss program. It will randomly tell the user 'Heads' or 'Ta
 Write a program which will select a random name from a list. The person selected will have to play for everybody's food bill.
 
 ### · Treasure Map ·
-Write a program which will mark a spot with an x. <br />
-The map is made of 3 rows of blank squares. <br />
-The program should allow you to enter the position of the treasure using a twi digit system. The first digit is the horizontal column number and the second is the vertical number.
+Write a program which will mark a spot with an x. The map is made of 3 rows of blank squares. <br />
+The program should allow you to enter the position of the treasure using a twi digit system. The first digit is the horizontal column number and the second is the vertical number. <br /> <br />
+Modified to be a find the treasure game, with limited attempts to find it.
 
 ### · Rock Paper Scissors ·
 
