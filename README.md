@@ -1,6 +1,6 @@
 # PythonCourse
 
-### Progress:
+## Course Progress:
 <details>
 <summary>Classes:</summary>
   
