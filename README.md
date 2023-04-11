@@ -1,5 +1,6 @@
 # PythonCourse
-Well... I'm taking a Python course, and I'm going to document a bit mu Journey. At first I'll probably write less ( because easy ) but who knows if I end up writing more! For now, just the course little exercises.
+Well... I'm taking a Python course, and I'm going to document a bit my journey. At first I'll probably write less ( because easy ) but who knows if I end up writing more! For now, just an explanation of the course little exercises I've been doing, you can see all of them in this repository. <br />
+Lots of love!
 
 ## Course Progress:
 <details>
@@ -19,6 +20,7 @@ Well... I'm taking a Python course, and I'm going to document a bit mu Journey. 
 ## DAY 1 - Working with Variables in Python to Manage Data:
 
 ### · Band Name Generator · <sub><sup>FINAL WORK</sup></sub>
+[See Project] https://github.com/koalba/PythonCourse/tree/main/00_DAY1/00_BandNameGenerator
 Generate a Band Name with the user's city and pet name.
 
 ## DAY 2 - Understanding Data Types and How to Manipulate Strings:
