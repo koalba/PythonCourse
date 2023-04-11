@@ -11,6 +11,7 @@
 - [x] DAY 5 - Python Loops.
 - [ ] DAY 6 - Python Functions & Karel.
 - [ ] DAY 7 - Hangman.
+- [ ] ...
   
 </details>
 
