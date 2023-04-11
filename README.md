@@ -20,7 +20,8 @@ Lots of love!
 ## DAY 1 - Working with Variables in Python to Manage Data:
 
 ### · Band Name Generator · <sub><sup>FINAL WORK</sup></sub>
-[See Project] https://github.com/koalba/PythonCourse/tree/main/00_DAY1/00_BandNameGenerator
+[See Project](https://github.com/koalba/PythonCourse/tree/main/00_DAY1/00_BandNameGenerator)
+
 Generate a Band Name with the user's city and pet name.
 
 ## DAY 2 - Understanding Data Types and How to Manipulate Strings:
