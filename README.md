@@ -21,24 +21,28 @@ Lots of love!
 
 ### · Band Name Generator · <sub><sup>FINAL WORK</sup></sub>
 Generate a Band Name with the user's city and pet name. <br />
-🟢  [See Project](https://github.com/koalba/PythonCourse/tree/main/00_DAY1/00_BandNameGenerator)
+🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/00_DAY1/00_BandNameGenerator)
 
 ## DAY 2 - Understanding Data Types and How to Manipulate Strings:
 
 ### · Data Type ·
 Write a program that adds the digits in a 2 digit number. <br />
-Modifyed to work for more than 2 digit numbers.
+Modifyed to work for more than 2 digit numbers. <br />
+🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/01_DAY2/00_DataType)
 
 ### · BMI Calculator ·
 Write a program that calculates the Body Mass Index (BMI) form a user's weight and height. <br />
-The BMI is calculated by dividing the person's weight (kg) by the square of their height (m).
+The BMI is calculated by dividing the person's weight (kg) by the square of their height (m). <br />
+🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/01_DAY2/01_BMICalculator)
 
 ### · Your Life in Weeks ·
 Create a program using maths and f-Strings that tell us how many days, weeks and months we have left if we live up to 90 years old. <br />
-1 year = 365 days, 52 weeks and 12 months
+1 year = 365 days, 52 weeks and 12 months <br />
+🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/01_DAY2/02_LifeInWeeks)
 
 ### · Tip Calculator · <sub><sup>FINAL WORK</sup></sub>
-Calculate the tip based on the total bill, the tip percentage and how many people are going to pay.
+Calculate the tip based on the total bill, the tip percentage and how many people are going to pay. <br />
+🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/01_DAY2/00_TipCalculator)
 
 ## DAY 3 - Control Flow and Logical Operators:
 
