@@ -36,7 +36,7 @@ Create a program using maths and f-Strings that tell us how many days, weeks and
 1 year = 365 days, 52 weeks and 12 months
 
 ### · Tip Calculator · 
-^Final Work^
+<sub><sup>DAY 1 - FINAL WORK</sup></sub>
 Calculate the tip based on the total bill, the tip percentage and how many people are going to pay.
 
 ## DAY 3 - Control Flow and Logical Operators:
