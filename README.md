@@ -1,11 +1,8 @@
 # PythonCourse
 
+## Progress:
 <details>
-<summary>
-  
-  ## Progress:
-  
- </summary>
+<summary></summary>
   
 - [x] DAY 1 - Working with Variables in Python to Manage Data.
 - [x] DAY 2 - Understanding Data Types and How to Manipulate Strings.
