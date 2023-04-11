@@ -62,6 +62,7 @@ Create a 'Choose your own adventure' Game using this flowchart: <br />
 Write a virtual coin toss program. It will randomly tell the user 'Heads' or 'Tails'.
 
 ### · Banker Roullete - Who will pay the bill? ·
+Write a program which will select a random name from a list. The person selected will have to play for everybody's food bill.
 
 ### · Treasure Map ·
 
