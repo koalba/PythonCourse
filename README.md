@@ -1,7 +1,7 @@
 # PythonCourse
 
 ## Progress:
-<details open>
+<details>
 <summary>Classes:</summary>
   
 - [x] DAY 1 - Working with Variables in Python to Manage Data.
