@@ -1,7 +1,8 @@
 # PythonCourse
 
 <details>
-<summary>## Progress:</summary>
+<summary>Progress:</summary>
+  
 - [x] DAY 1 - Working with Variables in Python to Manage Data.
 - [x] DAY 2 - Understanding Data Types and How to Manipulate Strings.
 - [x] DAY 3 - Control Flow and Logical Operators.
@@ -9,6 +10,7 @@
 - [x] DAY 5 - Python Loops.
 - [ ] DAY 6 - Python Functions & Karel.
 - [ ] DAY 7 - Hangman.
+  
 </details>
 
 ## DAY 1 - Working with Variables in Python to Manage Data:
