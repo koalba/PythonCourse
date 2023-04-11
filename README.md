@@ -1,7 +1,6 @@
 # PythonCourse
 
 ## DAY 1 - Working with Variables in Python to Manage Data:
-<h2 style="color:pink">DAY 1 - Working with Variables in Python to Manage Data:</h2>
 
 ### · Band Name Generator ·
 Generate a Band Name with the user's city and pet name.
