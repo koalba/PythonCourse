@@ -167,5 +167,135 @@ In this case, I used it to randomize the position of the characters of the passw
 
 ## DAY 6 - Python Functions & Karel:
 
+### · The Hurdles Loop Challenge ·
+Challenge: 
+[Reeborg's World - Hurdle 1](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%201&url=worlds%2Ftutorial_en%2Fhurdle1.json) <br />
+
+Reeborg has entered a hurdles race. Make him run the course, following the path shown. <br />
+
+My solution:
+~~~ python
+def jump():
+  move()
+  turn(1)
+  turn(3)
+  turn(3)
+  turn(1, False)
+
+def turn(num, m = True ):
+    for n in range(0,num):
+        turn_left()
+    if m :
+        move()
+
+for n in range(0, 6):
+    jump()
+~~~
+
+### · The Hurdles Loop Challenge with While Loops ·
+Challenge: 
+[Reeborg's World - Hurdle 3](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%203&url=worlds%2Ftutorial_en%2Fhurdle3.json) <br />
+
+Reeborg has entered a hurdle race. Make him run the course, following the path shown.
+The position and number of hurdles changes each time this world is reloaded. </br>
+
+My solution:
+~~~ python
+def jump():
+    turn(1)
+    turn(3)
+    turn(3)
+    turn(1, False)
+    
+def turn(num, m = True ):
+    for n in range(0,num):
+        turn_left()
+    if m :
+        move()
+    
+while not at_goal():
+    while front_is_clear() and not at_goal():
+        move()
+    else:
+        jump()
+~~~
+
+### · The Hurdles Loop Challenge - Random position, height and number ·
+Challenge: 
+[Reeborg's World - Hurdle 4](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%204&url=worlds%2Ftutorial_en%2Fhurdle4.json) <br />
+
+Reeborg has entered a hurdle race. Make him run the course, following the path shown.
+The position, the height and the number of hurdles changes each time this world is reloaded. </br>
+
+My solution:
+~~~ python
+def jump():
+    turn(1)
+    turn(3)
+    turn(3)
+    turn(1, False)
+    
+def turn(num, m = True ):
+    for n in range(0,num):
+        turn_left()
+    if m :
+        if( not wall_on_right() ) : move()
+        while wall_on_right() and front_is_clear():
+            move()
+    
+while not at_goal():
+    while front_is_clear() and not at_goal():
+        move()
+    else:
+        if not at_goal() : jump()
+else:
+    done()
+~~~
+
+### · The Hurdles Loop Challenge - Escape the Maze ·
+Challenge: 
+[Reeborg's World - Maze](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json) <br />
+
+Reeborg was exploring a dark maze and the battery in its flashlight ran out. </br>
+Write a program using an if/elif/else statement so Reeborg can find the exit. The secret is to have Reeborg follow along the right edge of the maze, turning right if it can, going straight ahead if it can’t turn right, or turning left as a last resort. </br>
+
+|![](https://user-images.githubusercontent.com/34134103/231523937-0f6ea0e9-4ab7-420d-a860-aa3cd20241ed.png)|![](https://user-images.githubusercontent.com/34134103/231523731-049497c7-6cc7-477d-a45d-3e396951872e.png)|
+
+It took me more than I'd like to admit because I started with a completely wrong mindset about how to complete it... I had to sit back and really figure out how everything should work. </br>
+I's funny because there is a place in the maze that would make the robot go on a loop, making a square. I fixed this making it so the robot can only turn right two times in a row. <br />
+
+My solution:
+~~~ python
+def lookNorth():
+    while not is_facing_north():
+        turn_left()
+
+def lookRight():
+    for n in range(0, 3):
+        turn_left()
+        
+count = 0
+
+def detectWalls():
+    global count
+    
+    if right_is_clear() and count <= 1:
+        count += 1
+        lookRight()
+    elif not right_is_clear() and not front_is_clear():
+        turn_left()
+        count = 0
+    else:
+        count = 0
+        
+lookNorth()        
+
+while not at_goal():
+    detectWalls()
+    if front_is_clear() : move()
+else:
+    done()
+~~~
+
 ## DAY 7 - Hangman:
 
