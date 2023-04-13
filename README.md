@@ -252,7 +252,7 @@ else:
     done()
 ~~~
 
-### · The Hurdles Loop Challenge - Escape the Maze ·
+### · The Hurdles Loop Challenge - Escape the Maze · <sub><sup>FINAL WORK</sup></sub>
 Challenge: 
 [Reeborg's World - Maze](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json) <br />
 
@@ -298,4 +298,18 @@ else:
 ~~~
 
 ## DAY 7 - Hangman:
+||||
+|---|---|---|
+|![](https://user-images.githubusercontent.com/34134103/231815090-258d5900-fb21-4f51-839e-8c7b750c3719.png)|![](https://user-images.githubusercontent.com/34134103/231815125-dcdab449-cca9-4c44-a854-f8b51b77ed21.png)|![](https://user-images.githubusercontent.com/34134103/231815151-e8b5a0c4-65e9-4462-accd-0160bfc3489a.png)|
+
+
+
+Create a hangman game.
+
+- [x] Picking Random Words and Checking Answers.
+- [x] Replacing Blanks with Guesses.
+- [x] Checking if the Playes has Won.
+- [x] Keeping Track of the Player's Lives.
+- [x] Improving the User Experience.
+
 
