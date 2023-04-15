@@ -11,8 +11,10 @@ Lots of love!<br /><br />
 - [x] DAY 3 - Control Flow and Logical Operators. - <sub><sup>10 April 2023</sup></sub>
 - [x] DAY 4 - Randomisation and Python Lists. - <sub><sup>11 April 2023</sup></sub>
 - [x] DAY 5 - Python Loops. - <sub><sup>11 April 2023</sup></sub>
-- [ ] DAY 6 - Python Functions & Karel.
-- [ ] DAY 7 - Hangman.
+- [x] DAY 6 - Python Functions & Karel.
+- [x] DAY 7 - Hangman.
+- [x] DAY 8 - Function Parameters & Caesar Cipher.
+- [x] DAY 9 - Dictionaries, Nesting and the Secret Auction.
 - [ ] ...
   
 </details>
@@ -302,8 +304,6 @@ else:
 |---|---|---|
 |![](https://user-images.githubusercontent.com/34134103/231815090-258d5900-fb21-4f51-839e-8c7b750c3719.png)|![](https://user-images.githubusercontent.com/34134103/231815125-dcdab449-cca9-4c44-a854-f8b51b77ed21.png)|![](https://user-images.githubusercontent.com/34134103/231815151-e8b5a0c4-65e9-4462-accd-0160bfc3489a.png)|
 
-
-
 Create a hangman game.
 
 - [x] Picking Random Words and Checking Answers.
@@ -312,4 +312,78 @@ Create a hangman game.
 - [x] Keeping Track of the Player's Lives.
 - [x] Improving the User Experience.
 
+🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/06_DAY7/00_HangmanGame)
 
+## DAY 8 - Function Parameters & Caesar Cipher:
+
+### · Paint Area Calculator ·
+You are painting a wall, the instructions on the paint says that **1 can of paint can cover 5 square meters of wall**. <br />
+Given a random size of the wall, calculate how many cans of paint you'll need to buy. <br /> <br />
+`number of cans = ( wall height * wall width ) / coverage per can`  <br />
+
+🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/07_DAY8/00_PaintAreaCalculator)
+
+### · Prime Number Checker ·
+Prime numbers are numbers that can only be divided by itself and 1. <br />
+You need to write a function that checks wether if the number passed into it is a prime number or not. <br /><br />
+In this case I made a little library with the different answers to if it was or not a prime number, so I could use them multiple times but change it only once if necessary. <br />
+
+~~~ python
+answers = {
+    'it_is'     : 'It\'s a prime number.',
+    'it_is_not' : 'It\'s NOT a prime number.'
+}
+~~~
+
+🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/07_DAY8/01_PrimeNumberChecker)
+
+### · Caesar Cipher · <sub><sup>FINAL WORK</sup></sub>
+
+| MENU SCREEN | ENCODING | DECODING (NO OFFSET) |
+|---|---|---|
+|![](https://user-images.githubusercontent.com/34134103/232148476-c4eab111-a4ff-4950-8476-936ebb6fe252.png)|![](https://user-images.githubusercontent.com/34134103/232148487-75a61eec-4242-4861-957e-9edc11d0f403.png)|![](https://user-images.githubusercontent.com/34134103/232149271-58cae9b1-6b50-4ac1-a8f7-f933dfca6ecc.png)|
+
+The Caesar Cipher ( or Caesar Code ) is a monoalphabetic substitution cipher, where each letter is replace by another located a little further. This shift distance is based on an offset. <br />
+
+In the course project, you have to know the offset to decode the message, but I wanted to be able to decript the message either way. For that, I just checked all possible offsets that can be made in the alphabet. <br />
+
+~~~ python
+for n in range( 0 , len( alphabet )):
+  caesar( direction , text , n )
+~~~
+
+🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/07_DAY8/02_CaesarCipher)
+
+## DAY 9 - Dictionaries, Nesting and the Secret Auction:
+
+### · Grading Program ·
+
+You have access to a database of `student_scores` in the format of a dictionary. The keys of the dictionary are the names of the students, and the values are their exam scores. <br />
+Write a program that converts their scores to grades. By the end of the program, you should have a dictionary called `student_grades` with the same structure as the other. <br />
+Coding criteria: <br />
+- Scores 91 - 100 : 'Outstanding'
+- Scores 81 - 90  : 'Exceeds Expectations'
+- Scores 71 - 80  : 'Acceptable'
+- Scores 70 or lower  : 'Fail'
+
+🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/08_DAY9/00_GradingProgram)
+
+### · Dictionary in List ·
+
+| MENU SCREEN | COUNTRY ADDED | TRAVEL LOG CHECK |
+|---|---|---|
+|![](https://user-images.githubusercontent.com/34134103/232172652-c5eaedf5-5068-40d7-8463-22a543b14949.png)|![](https://user-images.githubusercontent.com/34134103/232172653-13bfd016-aa80-4643-8ece-0a2423e9cc50.png)|![](https://user-images.githubusercontent.com/34134103/232172662-9c80cbef-7ea5-491f-94e2-33d92ff62e87.png)|
+
+Write a program that adds to a `travel_log`. Write a function to add or modify this `travel_log` to add the name of the country, how many times you've visited it, and which cities. <br />
+I've added the posibility to check the complete Travel Log, or just one country.<br />
+
+🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/08_DAY9/01_DictionaryInList)
+
+### · The Secret Auction Program · <sub><sup>FINAL WORK</sup></sub>
+| MENU SCREEN | WINNER |
+|---|---|
+|![](https://user-images.githubusercontent.com/34134103/232174547-7bccfaf6-3602-492e-824c-fac1ce236bbe.png)|![](https://user-images.githubusercontent.com/34134103/232174551-1eb29e0e-8e75-4c86-a684-92388698a2d1.png)|
+
+A firs-price sealed-bid auction (FPSBA) or Blind Aucion is a type of aution in wich all bidders simultaneously submit sealed bids, so that no other bidder knows the bid of any other participant. <br />
+
+🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/08_DAY9/02_TheSecretAuction)
