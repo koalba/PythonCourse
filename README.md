@@ -11,10 +11,10 @@ Lots of love!<br /><br />
 - [x] DAY 3 - Control Flow and Logical Operators. - <sub><sup>10 April 2023</sup></sub>
 - [x] DAY 4 - Randomisation and Python Lists. - <sub><sup>11 April 2023</sup></sub>
 - [x] DAY 5 - Python Loops. - <sub><sup>11 April 2023</sup></sub>
-- [x] DAY 6 - Python Functions & Karel.
-- [x] DAY 7 - Hangman.
-- [x] DAY 8 - Function Parameters & Caesar Cipher.
-- [x] DAY 9 - Dictionaries, Nesting and the Secret Auction.
+- [x] DAY 6 - Python Functions & Karel. - <sub><sup>13 April 2023</sup></sub>
+- [x] DAY 7 - Hangman. - <sub><sup>13 April 2023</sup></sub>
+- [x] DAY 8 - Function Parameters & Caesar Cipher. <sub><sup>14 April 2023</sup></sub>
+- [x] DAY 9 - Dictionaries, Nesting and the Secret Auction. <sub><sup>14 April 2023</sup></sub>
 - [ ] ...
   
 </details>
