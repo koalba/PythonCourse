@@ -6,15 +6,17 @@ Lots of love!<br /><br />
 <details>
 <summary>Classes:</summary>
   
-- [x] DAY 1 - Working with Variables in Python to Manage Data. - <sub><sup>10 April 2023</sup></sub>
-- [x] DAY 2 - Understanding Data Types and How to Manipulate Strings. - <sub><sup>10 April 2023</sup></sub>
-- [x] DAY 3 - Control Flow and Logical Operators. - <sub><sup>10 April 2023</sup></sub>
-- [x] DAY 4 - Randomisation and Python Lists. - <sub><sup>11 April 2023</sup></sub>
-- [x] DAY 5 - Python Loops. - <sub><sup>11 April 2023</sup></sub>
-- [x] DAY 6 - Python Functions & Karel. - <sub><sup>13 April 2023</sup></sub>
-- [x] DAY 7 - Hangman. - <sub><sup>13 April 2023</sup></sub>
-- [x] DAY 8 - Function Parameters & Caesar Cipher. <sub><sup>14 April 2023</sup></sub>
-- [x] DAY 9 - Dictionaries, Nesting and the Secret Auction. <sub><sup>14 April 2023</sup></sub>
+- [x] DAY 01 - Working with Variables in Python to Manage Data. - <sub><sup>10 April 2023</sup></sub>
+- [x] DAY 02 - Understanding Data Types and How to Manipulate Strings. - <sub><sup>10 April 2023</sup></sub>
+- [x] DAY 03 - Control Flow and Logical Operators. - <sub><sup>10 April 2023</sup></sub>
+- [x] DAY 04 - Randomisation and Python Lists. - <sub><sup>11 April 2023</sup></sub>
+- [x] DAY 05 - Python Loops. - <sub><sup>11 April 2023</sup></sub>
+- [x] DAY 06 - Python Functions & Karel. - <sub><sup>13 April 2023</sup></sub>
+- [x] DAY 07 - Hangman. - <sub><sup>13 April 2023</sup></sub>
+- [x] DAY 08 - Function Parameters & Caesar Cipher. <sub><sup>14 April 2023</sup></sub>
+- [x] DAY 09 - Dictionaries, Nesting and the Secret Auction. <sub><sup>14 April 2023</sup></sub>
+- [x] DAY 10 - Functions with Outputs <sub><sup>17 April 2023</sup></sub>
+- [x] DAY 11 - The Blackjack Capstone Project <sub><sup>17 April 2023</sup></sub>
 - [ ] ...
   
 </details>
@@ -300,9 +302,10 @@ else:
 ~~~
 
 ## DAY 7 - Hangman:
-||||
-|---|---|---|
-|![](https://user-images.githubusercontent.com/34134103/231815090-258d5900-fb21-4f51-839e-8c7b750c3719.png)|![](https://user-images.githubusercontent.com/34134103/231815125-dcdab449-cca9-4c44-a854-f8b51b77ed21.png)|![](https://user-images.githubusercontent.com/34134103/231815151-e8b5a0c4-65e9-4462-accd-0160bfc3489a.png)|
+
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/232582060-c6320ab8-c1e2-48fb-a384-757264d4250d.png"></img>
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/232582063-7a4aeccb-f700-42be-89f6-372a87e26a3a.png"></img>
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/232582068-aa902a5b-51d4-4f09-9d5b-dfa6d3aeb6a3.png"></img>
 
 Create a hangman game.
 
@@ -339,9 +342,9 @@ answers = {
 
 ### · Caesar Cipher · <sub><sup>FINAL WORK</sup></sub>
 
-| MENU SCREEN | ENCODING | DECODING (NO OFFSET) |
-|---|---|---|
-|![](https://user-images.githubusercontent.com/34134103/232148476-c4eab111-a4ff-4950-8476-936ebb6fe252.png)|![](https://user-images.githubusercontent.com/34134103/232148487-75a61eec-4242-4861-957e-9edc11d0f403.png)|![](https://user-images.githubusercontent.com/34134103/232149271-58cae9b1-6b50-4ac1-a8f7-f933dfca6ecc.png)|
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/232581637-9db28483-f863-4bc7-ba4a-d2bba2460f3e.png"></img>
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/232581644-8508cded-c42f-4fa5-b91e-af424837d5ca.png"></img>
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/232581656-fcb79bfd-5360-47c7-9955-aa0234ceefa9.png"></img>
 
 The Caesar Cipher ( or Caesar Code ) is a monoalphabetic substitution cipher, where each letter is replace by another located a little further. This shift distance is based on an offset. <br />
 
@@ -370,9 +373,9 @@ Coding criteria: <br />
 
 ### · Dictionary in List ·
 
-| MENU SCREEN | COUNTRY ADDED | TRAVEL LOG CHECK |
-|---|---|---|
-|![](https://user-images.githubusercontent.com/34134103/232172652-c5eaedf5-5068-40d7-8463-22a543b14949.png)|![](https://user-images.githubusercontent.com/34134103/232172653-13bfd016-aa80-4643-8ece-0a2423e9cc50.png)|![](https://user-images.githubusercontent.com/34134103/232172662-9c80cbef-7ea5-491f-94e2-33d92ff62e87.png)|
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/232581079-c364282b-17fd-4d0a-83bc-0407242b1926.png"></img>
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/232581087-f344941b-489d-4dac-b439-9a994309f9db.png"></img>
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/232581094-eb4bce4a-246a-4c3d-b58b-672340d63846.png"></img>
 
 Write a program that adds to a `travel_log`. Write a function to add or modify this `travel_log` to add the name of the country, how many times you've visited it, and which cities. <br />
 I've added the posibility to check the complete Travel Log, or just one country.<br />
@@ -380,10 +383,83 @@ I've added the posibility to check the complete Travel Log, or just one country.
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/08_DAY9/01_DictionaryInList)
 
 ### · The Secret Auction Program · <sub><sup>FINAL WORK</sup></sub>
-| MENU SCREEN | WINNER |
-|---|---|
-|![](https://user-images.githubusercontent.com/34134103/232174547-7bccfaf6-3602-492e-824c-fac1ce236bbe.png)|![](https://user-images.githubusercontent.com/34134103/232174551-1eb29e0e-8e75-4c86-a684-92388698a2d1.png)|
+
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/232580555-dd5957da-2891-480a-8e54-dcb92ada056f.png"></img>
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/232580569-f2c9ee4d-6cba-499c-90ad-c862a27ccf6d.png"></img>
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/232580578-79bc2e11-d09e-44fd-806b-28949132fc79.png"></img>
 
 A firs-price sealed-bid auction (FPSBA) or Blind Aucion is a type of aution in wich all bidders simultaneously submit sealed bids, so that no other bidder knows the bid of any other participant. <br />
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/08_DAY9/02_TheSecretAuction)
+
+## DAY 10 - Functions with Outputs:
+
+### · Days in a Month ·
+
+Using the Leap Year project code, change the function so that instead of printint 'Leap year' or 'Not leap year' it returns True or False. <br />
+Then, create a function called `days_in_month( year , month )` that will use its paremeters to work out the days in the month, and return that as the output.
+
+🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/09_DAY10/00_DaysInAMonth)
+
+### · Calculator · <sub><sup>FINAL WORK</sup></sub>
+
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/232580041-436360a1-351b-4f13-bfaf-ce08da39d3b9.png"></img>
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/232580050-b60dea6f-c7b8-46f5-a85f-6df664d4e54b.png"></img>
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/232580057-08a98f35-e339-4a59-b4b8-ddc25efe6910.png"></img>
+
+Make a calculator. In the project she said to ask three questions, the first number, the operator, and then the second number. I wanted to be able to write the operation itself, and that gave me the problem of... ¿What if I want to write a complicated operation that has more than two numbers? And of course I have to follow the order so multiply and so on goes first, then sum and subtraction, etc. <br />
+
+After thinking a bit, I created a while loop to run until I have my result, first, I check all the multiplication, division, etc. and substitute the values used in the list for the result of the calculation. When I finish that, I check for all the other operations until I get just one value, my result.
+
+~~~ python
+while len(numbers) > 1:
+        for i, n in enumerate( numbers ):
+            if n == '*' or n == '/' or n == '%' or n == '^' or n == 'x':
+                numbers[i] = calculate( float(numbers[i - 1]), n , float(numbers[i + 1]) )
+                numbers.pop( i + 1 )
+                numbers.pop( i - 1 )
+        else:
+            for i, n in enumerate( numbers ):
+                if n == '+' or n == '-':
+                    numbers[i] = calculate( float(numbers[i - 1]), n , float(numbers[i + 1]) )
+                    numbers.pop( i + 1 )
+                    numbers.pop( i - 1 )
+~~~
+
+Also, I learnt about the `operator` module, that exports a set of efficient functions corresponding to each Python operator. ` operator.add( a , b ) ` its equivalent to the expression `a + b`. <br />
+
+Thanks to it, I can make a dynamic calculation without worrying about doing all the if's statements for all the individual operators.
+
+~~~ python
+import operator
+
+ops = {
+    '+' : operator.add,
+    '-' : operator.sub,
+    '*' : operator.mul,
+    'x' : operator.mul,
+    '/' : operator.truediv,
+    '%' : operator.mod,
+    '^' : operator.xor,
+}
+
+result = ops[ operation ]( first_number , second_number ) # operation = '+' or '-' or '*'...
+~~~
+
+🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/09_DAY10/01_Calculator)
+
+## DAY 11 - The Blackjack Capstone Project:
+
+### · The Blackjack Capstone Project · <sub><sup>FINAL WORK</sup></sub>
+
+Write a Simplifyed Blackjack game. <br />
+
+Blackjack House rules:
+- [x] The deck is unlimited in size.
+- [x] There are no jokers.
+- [x] The Jack/Queen/King all count as 10.
+- [x] The Ace can count as 11 or as 1.
+- [x] Use the list `cards = [11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]` as a deck of cards.
+- [x] The cards in the list have equal probability of being drawn.
+- [x] Cards are not removed from the deck as they are drawn.
+
