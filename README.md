@@ -16,7 +16,8 @@ Lots of love!<br /><br />
 - [x] DAY 08 - Function Parameters & Caesar Cipher. <sub><sup>14 April 2023</sup></sub>
 - [x] DAY 09 - Dictionaries, Nesting and the Secret Auction. <sub><sup>14 April 2023</sup></sub>
 - [x] DAY 10 - Functions with Outputs <sub><sup>17 April 2023</sup></sub>
-- [x] DAY 11 - The Blackjack Capstone Project <sub><sup>17 April 2023</sup></sub>
+- [x] DAY 11 - The Blackjack Capstone Project <sub><sup>20 April 2023</sup></sub>
+- [x] DAY 12 - Scope and Number Guessing Game <sub><sup>20 April 2023</sup></sub>
 - [ ] ...
   
 </details>
@@ -452,7 +453,13 @@ result = ops[ operation ]( first_number , second_number ) # operation = '+' or '
 
 ### · The Blackjack Capstone Project · <sub><sup>FINAL WORK</sup></sub>
 
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/233442195-80e93422-1b48-4bd6-a374-b9e7815b3406.png"></img>
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/233442203-e77f29ab-dcd4-49d0-87d2-a9e574baecf1.png"></img>
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/233442211-21f667d4-d831-4982-9bfa-2e9193ff0478.png"></img>
+
 Write a Simplifyed Blackjack game. <br />
+
+🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/10_DAY11/00_Blackjack)
 
 Blackjack House rules:
 - [x] The deck is unlimited in size.
@@ -462,4 +469,17 @@ Blackjack House rules:
 - [x] Use the list `cards = [11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]` as a deck of cards.
 - [x] The cards in the list have equal probability of being drawn.
 - [x] Cards are not removed from the deck as they are drawn.
+
+## DAY 12 - Scope and Number Guessing Game:
+
+### · The Number Guessing Game · <sub><sup>FINAL WORK</sup></sub>
+
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/233457978-1f718724-9560-4300-a848-f3ff33ad7527.png"></img>
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/233458000-ef0f66e1-3899-42f1-9afb-fbed3c9f33ae.png"></img>
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/233458005-0cf68244-872c-4f65-a4d6-7802a6a7d54d.png"></img>
+
+Make a game about guessing a random number bewteen 0 and 100. You have two levels, hard and easy, with 5 and 10 attempts to guess respectively. <br/>
+
+🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/11_DAY12/00_NumberGuessingGame)
+
 
