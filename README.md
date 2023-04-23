@@ -5,7 +5,10 @@ Lots of love!<br /><br />
 ## Course Progress:
 <details>
 <summary>Classes:</summary>
-  
+
+<br/>
+
+Beginner:
 - [x] DAY 01 - Working with Variables in Python to Manage Data. - <sub><sup>10 April 2023</sup></sub>
 - [x] DAY 02 - Understanding Data Types and How to Manipulate Strings. - <sub><sup>10 April 2023</sup></sub>
 - [x] DAY 03 - Control Flow and Logical Operators. - <sub><sup>10 April 2023</sup></sub>
@@ -18,6 +21,11 @@ Lots of love!<br /><br />
 - [x] DAY 10 - Functions with Outputs <sub><sup>17 April 2023</sup></sub>
 - [x] DAY 11 - The Blackjack Capstone Project <sub><sup>20 April 2023</sup></sub>
 - [x] DAY 12 - Scope and Number Guessing Game <sub><sup>20 April 2023</sup></sub>
+- [x] DAY 13 - Debugging: How to Find and Fix errors in your code <sub><sup>21 April 2023</sup></sub>
+- [x] DAY 14 - Higher Lower Game Project <sub><sup>21 April 2023</sup></sub>
+
+Intermediate:
+- [x] DAY 15 - Local Development, Environment Setup & The Coffee Machine <sub><sup>23 April 2023</sup></sub>
 - [ ] ...
   
 </details>
@@ -482,4 +490,73 @@ Make a game about guessing a random number bewteen 0 and 100. You have two level
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/11_DAY12/00_NumberGuessingGame)
 
+## DAY 13 - Debugging: How to Find and Fix errors in your code:
 
+NAH
+
+## DAY 14 - Higher Lower Game Project:
+
+### · The Higher Lower Game · <sub><sup>FINAL WORK</sup></sub>
+
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/233858095-620a2dcf-135d-4b87-8977-0f5afe5dc29f.png"></img>
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/233858096-ffc4ad8d-9aa4-480b-a0a9-6dccc2af5552.png"></img>
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/233858097-94b08096-fba4-48bc-a2f1-b56e42d5b5b7.png"></img>
+
+Make a game about guessing who has more followers on instagram from a made up list.
+
+🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/13_DAY14/00_TheHigherLowerGame)
+
+## DAY 15 - Local Development, Environment Setup & The Coffee Machine:
+
+### · The Coffee Machine · <sub><sup>FINAL WORK</sup></sub>
+
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/233858659-d1f683be-0ac5-4be3-8ab1-ae8aca001eb6.png"></img>
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/233858665-ce0146b3-d5db-4b5a-bd00-8d64de651e81.png"></img>
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/233858684-2a74a97c-7270-4c25-b7c8-253a106b125e.png"></img>
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/233858695-4f1aa664-1843-43e3-ab77-e977b4b1ebfc.png"></img>
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/233858699-a1b8a3c9-5cef-4030-b4c8-ced2cecf1843.png"></img>
+
+Program requirements: [Coffee Machine Program Requirements](https://github.com/koalba/PythonCourse/files/11304573/Coffee%2BMachine%2BProgram%2BRequirements.pdf)
+
+Three Hot Flavours:
+|        | Espresso | Latte | Cappuccino |
+| ------ | -------- | ----- | ---------- |
+| Price  | $1.50    | $2.50 | $3.00      |
+| Water  | 50ml     | 200ml | 250ml      |
+| Coffee | 18g      | 24g   | 24g        |
+| Milk   | -        | 150ml | 100ml      |
+
+Manage Resources:
+| Water | Coffee | Milk  |
+| ----- | ------ | ----- |
+| 300ml | 100g   | 200ml |
+
+Coin Operated:
+| Penny | Nickel | Dime    | Quarter  |
+| ----- | ------ | ------- | -------- |
+| 1cent | 5cents | 10cents | 25cents  |
+
+<br/>
+
+I really enjoyed this project, It had a lot more to it than the last ones. I added that, when you don't input enough money, instead of just giving it back and restarting everything, you can choose between adding more coins or just cancel the order and start again.
+<br />
+
+Also, I looked for ASCII Art on the internet of a coffee machine but couldn't find anything nice, so in the end I created my own which I'm actually really proud of.
+~~~
+    _____________________ _____
+   |  _________________  | ___ ||   ______________________
+   | | ___/     \__/\  | | ___ ||  |                      ||
+   | |/_______________\| |     ||  | PRICE CHART:         ||
+   |                     |  _  ||  |                      ||
+   |   O || Espresso     | |_| ||  | Espresso   -> $ 1.50 ||
+   |   O || Latte        |     ||  | Latte      -> $ 2.50 ||
+   |   O || Capuccino    |  -o ||  | Cappuccino -> $ 3.00 ||
+   |    _____________    |     ||  |______________________||
+   |   Y    |___|    Y   |     ||   
+   |   |   |     |   |   |     ||
+   |  ||    \___/    ||  | ___ ||
+   |   0_____________0   | ___ ||
+   |_  _______________  _|_ _ _||
+~~~
+
+🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/14_DAY15/00_CoffeeMachine)
