@@ -26,6 +26,7 @@ Beginner:
 
 Intermediate:
 - [x] DAY 15 - Local Development, Environment Setup & The Coffee Machine <sub><sup>23 April 2023</sup></sub>
+- [x] DAY 16 - Object Oriented Programming (OOP) <sub><sup>24 April 2023</sup></sub>
 - [ ] ...
   
 </details>
@@ -59,10 +60,12 @@ Create a program using maths and f-Strings that tell us how many days, weeks and
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/01_DAY2/02_LifeInWeeks)
 
+
 ### · Tip Calculator · <sub><sup>FINAL WORK</sup></sub>
 Calculate the tip based on the total bill, the tip percentage and how many people are going to pay.
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/01_DAY2/03_TipCalculator)
+
 
 ## DAY 3 - Control Flow and Logical Operators:
 
@@ -71,6 +74,7 @@ Write a program that works out wether if a given number is odd or even. <br />
 Even numbers can be divided by 2 with no remainder.
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/02_DAY3/00_OddOrEven)
+
 
 ### · BMI 2.0 ·
 Upgrade of the las BMI Calculator. <br />
@@ -83,6 +87,7 @@ Over 35 ---------- Clinically Obese <br />
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/02_DAY3/01_BMI-2.0)
 
+
 ### · Leap Year ·
 Write a program that works out wether if a given year is a leap year. <br />
 A normal year has 365 days, leap years have 366 vith an extra day in February. <br />
@@ -90,11 +95,13 @@ A normal year has 365 days, leap years have 366 vith an extra day in February. <
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/02_DAY3/02_LeapYear)
 
+
 ### · Pizza Order Practice ·
 Congratulations! You've got a job at Python Pizza. Your fist job is to build an automatic pizza order program. <br />
 Based on the user's order, work out their final bill. 
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/02_DAY3/03_PizzaOrder)
+
 
 ### · Love Calculator ·
 Write a program that tests the compatibility between two people. <br />
@@ -104,11 +111,13 @@ Between 40 and 50 --- 'You are alright together'
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/02_DAY3/04_LoveCalculator)
 
+
 ### · Treasure Island · <sub><sup>FINAL WORK</sup></sub>
 Create a 'Choose your own adventure' Game using this flowchart: <br />
 [Treasure Island Flowchart](https://viewer.diagrams.net/index.html?highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload)
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/02_DAY3/05_TreasureIsland)
+
 
 ## DAY 4 - Randomisation and Python Lists:
 
@@ -117,10 +126,12 @@ Write a virtual coin toss program. It will randomly tell the user 'Heads' or 'Ta
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/03_DAY4/00_HeadOrTails)
 
+
 ### · Banker Roullete - Who will pay the bill? ·
 Write a program which will select a random name from a list. The person selected will have to play for everybody's food bill.
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/03_DAY4/01_BankerRoullete)
+
 
 ### · Treasure Map ·
 Write a program which will mark a spot with an x. The map is made of 3 rows of blank squares. <br />
@@ -128,6 +139,7 @@ The program should allow you to enter the position of the treasure using a twi d
 Modified to be a find the treasure game, with limited attempts to find it.
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/03_DAY4/02_TreasureMap)
+
 
 ### · Rock Paper Scissors · <sub><sup>FINAL WORK</sup></sub>
 Create a Rock Paper Scissors Game.
@@ -141,15 +153,18 @@ Write a program that calculates the average student height from a list of height
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/04_DAY5/00_AvergeHeight)
 
+
 ### · High Score ·
 Write a program that calculates the highest score from a list of scores. Not allowed to use the min() max() functions.
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/04_DAY5/01_HighScore)
 
+
 ### · Adding Even Numbers ·
 Write a program that calculates the sum of all the even numbers from 1 to 100, including both.
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/04_DAY5/01_AddEvenNumbers)
+
 
 ### · The FizzBuzz Job Interview Question ·
 Write a program that automatically prints the solution to the FizzBuzz game. <br />
@@ -159,6 +174,7 @@ Write a program that automatically prints the solution to the FizzBuzz game. <br
 - [x] When the number is divisible by both 3 and 5 then instead of the number, it should print 'FizzBuzz'.
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/04_DAY5/02_FizzBuzzJobInterview)
+
 
 ### · Password Generator · <sub><sup>FINAL WORK</sup></sub>
 Write a Random Password Generator with the amount of letters, symbols and numbers chosen by the user. <br />
@@ -177,6 +193,7 @@ In this case, I used it to randomize the position of the characters of the passw
 ~~~
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/04_DAY5/02_PasswordGenerator)
+
 
 ## DAY 6 - Python Functions & Karel:
 
@@ -326,6 +343,7 @@ Create a hangman game.
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/06_DAY7/00_HangmanGame)
 
+
 ## DAY 8 - Function Parameters & Caesar Cipher:
 
 ### · Paint Area Calculator ·
@@ -334,6 +352,7 @@ Given a random size of the wall, calculate how many cans of paint you'll need to
 `number of cans = ( wall height * wall width ) / coverage per can`  <br />
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/07_DAY8/00_PaintAreaCalculator)
+
 
 ### · Prime Number Checker ·
 Prime numbers are numbers that can only be divided by itself and 1. <br />
@@ -348,6 +367,7 @@ answers = {
 ~~~
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/07_DAY8/01_PrimeNumberChecker)
+
 
 ### · Caesar Cipher · <sub><sup>FINAL WORK</sup></sub>
 
@@ -366,6 +386,7 @@ for n in range( 0 , len( alphabet )):
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/07_DAY8/02_CaesarCipher)
 
+
 ## DAY 9 - Dictionaries, Nesting and the Secret Auction:
 
 ### · Grading Program ·
@@ -380,6 +401,7 @@ Coding criteria: <br />
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/08_DAY9/00_GradingProgram)
 
+
 ### · Dictionary in List ·
 
 <img width="33%" src="https://user-images.githubusercontent.com/34134103/232581079-c364282b-17fd-4d0a-83bc-0407242b1926.png"></img>
@@ -391,6 +413,7 @@ I've added the posibility to check the complete Travel Log, or just one country.
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/08_DAY9/01_DictionaryInList)
 
+
 ### · The Secret Auction Program · <sub><sup>FINAL WORK</sup></sub>
 
 <img width="33%" src="https://user-images.githubusercontent.com/34134103/232580555-dd5957da-2891-480a-8e54-dcb92ada056f.png"></img>
@@ -401,6 +424,7 @@ A firs-price sealed-bid auction (FPSBA) or Blind Aucion is a type of aution in w
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/08_DAY9/02_TheSecretAuction)
 
+
 ## DAY 10 - Functions with Outputs:
 
 ### · Days in a Month ·
@@ -409,6 +433,7 @@ Using the Leap Year project code, change the function so that instead of printin
 Then, create a function called `days_in_month( year , month )` that will use its paremeters to work out the days in the month, and return that as the output.
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/09_DAY10/00_DaysInAMonth)
+
 
 ### · Calculator · <sub><sup>FINAL WORK</sup></sub>
 
@@ -457,6 +482,7 @@ result = ops[ operation ]( first_number , second_number ) # operation = '+' or '
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/09_DAY10/01_Calculator)
 
+
 ## DAY 11 - The Blackjack Capstone Project:
 
 ### · The Blackjack Capstone Project · <sub><sup>FINAL WORK</sup></sub>
@@ -468,6 +494,7 @@ result = ops[ operation ]( first_number , second_number ) # operation = '+' or '
 Write a Simplifyed Blackjack game. <br />
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/10_DAY11/00_Blackjack)
+
 
 Blackjack House rules:
 - [x] The deck is unlimited in size.
@@ -490,6 +517,7 @@ Make a game about guessing a random number bewteen 0 and 100. You have two level
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/11_DAY12/00_NumberGuessingGame)
 
+
 ## DAY 13 - Debugging: How to Find and Fix errors in your code:
 
 NAH
@@ -505,6 +533,7 @@ NAH
 Make a game about guessing who has more followers on instagram from a made up list.
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/13_DAY14/00_TheHigherLowerGame)
+
 
 ## DAY 15 - Local Development, Environment Setup & The Coffee Machine:
 
@@ -560,3 +589,28 @@ Also, I looked for ASCII Art on the internet of a coffee machine but couldn't fi
 ~~~
 
 🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/14_DAY15/00_CoffeeMachine)
+
+
+## DAY 16 - Object Oriented Programming (OOP):
+
+### · The Coffee Machine (OOP) · <sub><sup>FINAL WORK</sup></sub>
+
+Same as before, but re-writting it with objects. <br/> 
+
+I've made a Menu, MenuItem, CoffeeMaker and MoneyMachine classes, and each manage one part of the whole Coffee Machine. This way, the main code stays cleaner and more readable, and also, it is more modular and replicable.</br>
+
+In this project, I wanted to give a bit more of attention to commenting and typing, so that my code could be more readable and understandable. For this, I researched Commenting Best Practices and how to type variables, parameters and functions in Python.
+~~~ python
+def manage_money( self , total : float , cost : float ):
+        """Adds the cost of the drink to the machine profit and gives back the change.
+
+        :total: (float) Total of the payment.
+        :cost: (float) Cost of the drink.
+        """
+        self.profit += cost
+
+        change : float = round(total - cost, 2)
+        print( f"\n    Here is your ${ change } in change." ) if not total == cost else ''
+~~~
+
+🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/15_DAY16/00_CoffeeMachine)
