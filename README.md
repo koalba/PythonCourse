@@ -1,5 +1,10 @@
+[![Python](https://img.shields.io/static/v1?label=&message=Python&color=3776AB&logo=python&logoColor=white&style=for-the-badge)](https://www.udemy.com/course/100-days-of-code/)
+
 # Python Course
-🟢 **Course:** [100 Days of Code: The Complete Python Pro Bootcamp for 2023](https://www.udemy.com/course/100-days-of-code/) by Dr. Angela Yu <br /><br />
+
+[![100 Days of Code: The Complete Python Pro Bootcamp for 2023](https://img.shields.io/static/v1?label=&message=100%20Days%20of%20Code:%20The%20Complete%20Python%20Pro%20Bootcamp%20for%202023%20by%20Dr.%20Angela%20Yu&color=3776AB&style=for-the-badge)](https://www.udemy.com/course/100-days-of-code/)
+
+
 Well... I'm taking a Python course, and I'm going to document a bit my journey. At first I'll probably write less ( because easy ) but who knows if I end up writing more! For now, just an explanation of the course little exercises I've been doing, you can see all of them in this repository. <br /><br />
 Lots of love!<br /><br />
 ## Course Progress:
@@ -36,7 +41,8 @@ Intermediate:
 ### · Band Name Generator · <sub><sup>FINAL WORK</sup></sub>
 Generate a Band Name with the user's city and pet name.
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/00_DAY1/00_BandNameGenerator)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/001_DAY1/00_BandNameGenerator)
+
 
 ## DAY 2 - Understanding Data Types and How to Manipulate Strings:
 
@@ -44,27 +50,27 @@ Generate a Band Name with the user's city and pet name.
 Write a program that adds the digits in a 2 digit number. <br />
 Modifyed to work for more than 2 digit numbers.
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/01_DAY2/00_DataTypes)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/002_DAY2/00_DataTypes)
 
 
 ### · BMI Calculator ·
 Write a program that calculates the Body Mass Index (BMI) form a user's weight and height. <br />
 The BMI is calculated by dividing the person's weight (kg) by the square of their height (m). 
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/01_DAY2/01_BMI)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/002_DAY2/01_BMI)
 
 
 ### · Your Life in Weeks ·
 Create a program using maths and f-Strings that tell us how many days, weeks and months we have left if we live up to 90 years old. <br />
 1 year = 365 days, 52 weeks and 12 months 
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/01_DAY2/02_LifeInWeeks)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/002_DAY2/02_LifeInWeeks)
 
 
 ### · Tip Calculator · <sub><sup>FINAL WORK</sup></sub>
 Calculate the tip based on the total bill, the tip percentage and how many people are going to pay.
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/01_DAY2/03_TipCalculator)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/002_DAY2/03_TipCalculator)
 
 
 ## DAY 3 - Control Flow and Logical Operators:
@@ -73,7 +79,7 @@ Calculate the tip based on the total bill, the tip percentage and how many peopl
 Write a program that works out wether if a given number is odd or even. <br />
 Even numbers can be divided by 2 with no remainder.
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/02_DAY3/00_OddOrEven)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/003_DAY3/00_OddOrEven)
 
 
 ### · BMI 2.0 ·
@@ -85,7 +91,7 @@ Less than 18.5 --- Underweight <br />
 30 - 35 ---------- Obese <br />
 Over 35 ---------- Clinically Obese <br /> 
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/02_DAY3/01_BMI-2.0)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/003_DAY3/01_BMI-2.0)
 
 
 ### · Leap Year ·
@@ -93,14 +99,14 @@ Write a program that works out wether if a given year is a leap year. <br />
 A normal year has 365 days, leap years have 366 vith an extra day in February. <br />
 'On every year that is evenly divisible by 4, except if that year is divisible by 100, unless it is also divisible by 400.'
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/02_DAY3/02_LeapYear)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/003_DAY3/002_LeapYear)
 
 
 ### · Pizza Order Practice ·
 Congratulations! You've got a job at Python Pizza. Your fist job is to build an automatic pizza order program. <br />
 Based on the user's order, work out their final bill. 
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/02_DAY3/03_PizzaOrder)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/003_DAY3/03_PizzaOrder)
 
 
 ### · Love Calculator ·
@@ -109,14 +115,14 @@ Take both people's name and check for the number of times the letters in the wor
 Less than 10 or more than 90 --- 'You go together like coke and mentos' <br />
 Between 40 and 50 --- 'You are alright together'
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/02_DAY3/04_LoveCalculator)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/003_DAY3/04_LoveCalculator)
 
 
 ### · Treasure Island · <sub><sup>FINAL WORK</sup></sub>
 Create a 'Choose your own adventure' Game using this flowchart: <br />
 [Treasure Island Flowchart](https://viewer.diagrams.net/index.html?highlight=0000ff&edit=_blank&layers=1&nav=1&title=Treasure%20Island%20Conditional.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1oDe4ehjWZipYRsVfeAx2HyB7LCQ8_Fvi%26export%3Ddownload)
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/02_DAY3/05_TreasureIsland)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/003_DAY3/05_TreasureIsland)
 
 
 ## DAY 4 - Randomisation and Python Lists:
@@ -124,13 +130,13 @@ Create a 'Choose your own adventure' Game using this flowchart: <br />
 ### · Head or Tails ·
 Write a virtual coin toss program. It will randomly tell the user 'Heads' or 'Tails'.
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/03_DAY4/00_HeadOrTails)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/004_DAY4/00_HeadOrTails)
 
 
 ### · Banker Roullete - Who will pay the bill? ·
 Write a program which will select a random name from a list. The person selected will have to play for everybody's food bill.
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/03_DAY4/01_BankerRoullete)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/004_DAY4/01_BankerRoullete)
 
 
 ### · Treasure Map ·
@@ -138,32 +144,32 @@ Write a program which will mark a spot with an x. The map is made of 3 rows of b
 The program should allow you to enter the position of the treasure using a twi digit system. The first digit is the horizontal column number and the second is the vertical number. <br /> <br />
 Modified to be a find the treasure game, with limited attempts to find it.
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/03_DAY4/02_TreasureMap)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/004_DAY4/02_TreasureMap)
 
 
 ### · Rock Paper Scissors · <sub><sup>FINAL WORK</sup></sub>
 Create a Rock Paper Scissors Game.
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/03_DAY4/03_RockPaperScissors)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/004_DAY4/03_RockPaperScissors)
 
 ## DAY 5 - Python Loops:
 
 ### · Average Height ·
 Write a program that calculates the average student height from a list of heights.
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/04_DAY5/00_AvergeHeight)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/005_DAY5/00_AvergeHeight)
 
 
 ### · High Score ·
 Write a program that calculates the highest score from a list of scores. Not allowed to use the min() max() functions.
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/04_DAY5/01_HighScore)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/005_DAY5/01_HighScore)
 
 
 ### · Adding Even Numbers ·
 Write a program that calculates the sum of all the even numbers from 1 to 100, including both.
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/04_DAY5/01_AddEvenNumbers)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/005_DAY5/02_AddEvenNumbers)
 
 
 ### · The FizzBuzz Job Interview Question ·
@@ -173,7 +179,7 @@ Write a program that automatically prints the solution to the FizzBuzz game. <br
 - [x] When the number is divisible by 5. then instead of the number, it should print 'Buzz'.
 - [x] When the number is divisible by both 3 and 5 then instead of the number, it should print 'FizzBuzz'.
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/04_DAY5/02_FizzBuzzJobInterview)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/005_DAY5/03_FizzBuzzJobInterview)
 
 
 ### · Password Generator · <sub><sup>FINAL WORK</sup></sub>
@@ -192,7 +198,7 @@ In this case, I used it to randomize the position of the characters of the passw
 ''.join( random.sample( password, len( password ) ) )
 ~~~
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/04_DAY5/02_PasswordGenerator)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/005_DAY5/04_PasswordGenerator)
 
 
 ## DAY 6 - Python Functions & Karel:
@@ -341,7 +347,7 @@ Create a hangman game.
 - [x] Keeping Track of the Player's Lives.
 - [x] Improving the User Experience.
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/06_DAY7/00_HangmanGame)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/007_DAY7/00_HangmanGame)
 
 
 ## DAY 8 - Function Parameters & Caesar Cipher:
@@ -351,7 +357,7 @@ You are painting a wall, the instructions on the paint says that **1 can of pain
 Given a random size of the wall, calculate how many cans of paint you'll need to buy. <br /> <br />
 `number of cans = ( wall height * wall width ) / coverage per can`  <br />
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/07_DAY8/00_PaintAreaCalculator)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/008_DAY8/00_PaintAreaCalculator)
 
 
 ### · Prime Number Checker ·
@@ -366,7 +372,7 @@ answers = {
 }
 ~~~
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/07_DAY8/01_PrimeNumberChecker)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/008_DAY8/01_PrimeNumberChecker)
 
 
 ### · Caesar Cipher · <sub><sup>FINAL WORK</sup></sub>
@@ -384,7 +390,7 @@ for n in range( 0 , len( alphabet )):
   caesar( direction , text , n )
 ~~~
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/07_DAY8/02_CaesarCipher)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/008_DAY8/02_CaesarCipher)
 
 
 ## DAY 9 - Dictionaries, Nesting and the Secret Auction:
@@ -399,7 +405,7 @@ Coding criteria: <br />
 - Scores 71 - 80  : 'Acceptable'
 - Scores 70 or lower  : 'Fail'
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/08_DAY9/00_GradingProgram)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/009_DAY9/00_GradingProgram)
 
 
 ### · Dictionary in List ·
@@ -411,7 +417,7 @@ Coding criteria: <br />
 Write a program that adds to a `travel_log`. Write a function to add or modify this `travel_log` to add the name of the country, how many times you've visited it, and which cities. <br />
 I've added the posibility to check the complete Travel Log, or just one country.<br />
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/08_DAY9/01_DictionaryInList)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/009_DAY9/01_DictionaryInList)
 
 
 ### · The Secret Auction Program · <sub><sup>FINAL WORK</sup></sub>
@@ -422,7 +428,7 @@ I've added the posibility to check the complete Travel Log, or just one country.
 
 A firs-price sealed-bid auction (FPSBA) or Blind Aucion is a type of aution in wich all bidders simultaneously submit sealed bids, so that no other bidder knows the bid of any other participant. <br />
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/08_DAY9/02_TheSecretAuction)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/009_DAY9/02_TheSecretAuction)
 
 
 ## DAY 10 - Functions with Outputs:
@@ -432,7 +438,7 @@ A firs-price sealed-bid auction (FPSBA) or Blind Aucion is a type of aution in w
 Using the Leap Year project code, change the function so that instead of printint 'Leap year' or 'Not leap year' it returns True or False. <br />
 Then, create a function called `days_in_month( year , month )` that will use its paremeters to work out the days in the month, and return that as the output.
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/09_DAY10/00_DaysInAMonth)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/010_DAY10/00_DaysInAMonth)
 
 
 ### · Calculator · <sub><sup>FINAL WORK</sup></sub>
@@ -480,7 +486,7 @@ ops = {
 result = ops[ operation ]( first_number , second_number ) # operation = '+' or '-' or '*'...
 ~~~
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/09_DAY10/01_Calculator)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/010_DAY10/01_Calculator)
 
 
 ## DAY 11 - The Blackjack Capstone Project:
@@ -493,9 +499,6 @@ result = ops[ operation ]( first_number , second_number ) # operation = '+' or '
 
 Write a Simplifyed Blackjack game. <br />
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/10_DAY11/00_Blackjack)
-
-
 Blackjack House rules:
 - [x] The deck is unlimited in size.
 - [x] There are no jokers.
@@ -504,6 +507,9 @@ Blackjack House rules:
 - [x] Use the list `cards = [11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]` as a deck of cards.
 - [x] The cards in the list have equal probability of being drawn.
 - [x] Cards are not removed from the deck as they are drawn.
+
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/011_DAY11/00_Blackjack)
+
 
 ## DAY 12 - Scope and Number Guessing Game:
 
@@ -515,7 +521,7 @@ Blackjack House rules:
 
 Make a game about guessing a random number bewteen 0 and 100. You have two levels, hard and easy, with 5 and 10 attempts to guess respectively. <br/>
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/11_DAY12/00_NumberGuessingGame)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/012_DAY12/00_NumberGuessingGame)
 
 
 ## DAY 13 - Debugging: How to Find and Fix errors in your code:
@@ -532,7 +538,7 @@ NAH
 
 Make a game about guessing who has more followers on instagram from a made up list.
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/13_DAY14/00_TheHigherLowerGame)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/014_DAY14/00_TheHigherLowerGame)
 
 
 ## DAY 15 - Local Development, Environment Setup & The Coffee Machine:
@@ -588,7 +594,7 @@ Also, I looked for ASCII Art on the internet of a coffee machine but couldn't fi
    |_  _______________  _|_ _ _||
 ~~~
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/14_DAY15/00_CoffeeMachine)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/015_DAY15/00_CoffeeMachine)
 
 
 ## DAY 16 - Object Oriented Programming (OOP):
@@ -613,4 +619,4 @@ def manage_money( self , total : float , cost : float ):
         print( f"\n    Here is your ${ change } in change." ) if not total == cost else ''
 ~~~
 
-🟢 [See Project](https://github.com/koalba/PythonCourse/tree/main/15_DAY16/00_CoffeeMachine)
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/016_DAY16/00_CoffeeMachine)
