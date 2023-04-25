@@ -32,6 +32,7 @@ Beginner:
 Intermediate:
 - [x] DAY 15 - Local Development, Environment Setup & The Coffee Machine <sub><sup>23 April 2023</sup></sub>
 - [x] DAY 16 - Object Oriented Programming (OOP) <sub><sup>24 April 2023</sup></sub>
+- [x] DAY 17 - The Quiz Project & the Benefits of OOP <sub><sup>25 April 2023</sup></sub>
 - [ ] ...
   
 </details>
@@ -619,4 +620,30 @@ def manage_money( self , total : float , cost : float ):
         print( f"\n    Here is your ${ change } in change." ) if not total == cost else ''
 ~~~
 
+<<<<<<< HEAD
 [![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/016_DAY16/00_CoffeeMachine)
+=======
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=3776AB&style=for-the-badge)](/016_DAY16/00_CoffeeMachine)
+
+## DAY 17 - The Quiz Project & the Benefits of OOP:
+
+### · The Quiz Game · <sub><sup>FINAL WORK</sup></sub>
+
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/234347300-4f96f21a-25ca-47bd-a36d-1da8375790a8.png"></img>
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/234347317-26389016-a13d-4d3c-b739-7aa7cf86213a.png"></img>
+<img width="33%" src="https://user-images.githubusercontent.com/34134103/234347328-044847d6-66f7-460f-b291-6ee1ecd7d6d3.png"></img>
+
+Write a Quiz Game using the [Open Trivia Database](https://opentdb.com/).<br>
+
+She takes the json given by the Open Trivia Database, copy it and transform it on the project, but I wanted to go a bit further and investigate how to use the Trivia API, how to recollect the data and actually let the user choose the difficulty of the Quiz.
+~~~ python
+import requests, json
+
+def get_data( difficulty : str ):
+    res = requests.get(f'https://opentdb.com/api.php?amount=25&type=boolean&difficulty={ difficulty }')
+    data = json.loads( res.text )
+    return data['results']
+~~~
+
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=3776AB&style=for-the-badge)](/017_DAY17/00_Quiz)
+>>>>>>> 2552fa30108070a0e9a076bd09ab310eb1dd763f
