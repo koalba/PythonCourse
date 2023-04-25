@@ -296,7 +296,8 @@ Challenge:
 Reeborg was exploring a dark maze and the battery in its flashlight ran out. </br>
 Write a program using an if/elif/else statement so Reeborg can find the exit. The secret is to have Reeborg follow along the right edge of the maze, turning right if it can, going straight ahead if it can’t turn right, or turning left as a last resort. </br>
 
-|![](https://user-images.githubusercontent.com/34134103/231523937-0f6ea0e9-4ab7-420d-a860-aa3cd20241ed.png)|![](https://user-images.githubusercontent.com/34134103/231523731-049497c7-6cc7-477d-a45d-3e396951872e.png)|
+![](https://user-images.githubusercontent.com/34134103/231523937-0f6ea0e9-4ab7-420d-a860-aa3cd20241ed.png)
+![](https://user-images.githubusercontent.com/34134103/231523731-049497c7-6cc7-477d-a45d-3e396951872e.png)
 
 It took me more than I'd like to admit because I started with a completely wrong mindset about how to complete it... I had to sit back and really figure out how everything should work. </br>
 I's funny because there is a place in the maze that would make the robot go on a loop, making a square. I fixed this making it so the robot can only turn right two times in a row. <br />
@@ -336,9 +337,9 @@ else:
 
 ## DAY 7 - Hangman:
 
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/232582060-c6320ab8-c1e2-48fb-a384-757264d4250d.png"></img>
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/232582063-7a4aeccb-f700-42be-89f6-372a87e26a3a.png"></img>
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/232582068-aa902a5b-51d4-4f09-9d5b-dfa6d3aeb6a3.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/232582060-c6320ab8-c1e2-48fb-a384-757264d4250d.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/232582063-7a4aeccb-f700-42be-89f6-372a87e26a3a.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/232582068-aa902a5b-51d4-4f09-9d5b-dfa6d3aeb6a3.png"></img>
 
 Create a hangman game.
 
@@ -378,9 +379,9 @@ answers = {
 
 ### · Caesar Cipher · <sub><sup>FINAL WORK</sup></sub>
 
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/232581637-9db28483-f863-4bc7-ba4a-d2bba2460f3e.png"></img>
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/232581644-8508cded-c42f-4fa5-b91e-af424837d5ca.png"></img>
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/232581656-fcb79bfd-5360-47c7-9955-aa0234ceefa9.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/232581637-9db28483-f863-4bc7-ba4a-d2bba2460f3e.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/232581644-8508cded-c42f-4fa5-b91e-af424837d5ca.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/232581656-fcb79bfd-5360-47c7-9955-aa0234ceefa9.png"></img>
 
 The Caesar Cipher ( or Caesar Code ) is a monoalphabetic substitution cipher, where each letter is replace by another located a little further. This shift distance is based on an offset. <br />
 
@@ -411,9 +412,9 @@ Coding criteria: <br />
 
 ### · Dictionary in List ·
 
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/232581079-c364282b-17fd-4d0a-83bc-0407242b1926.png"></img>
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/232581087-f344941b-489d-4dac-b439-9a994309f9db.png"></img>
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/232581094-eb4bce4a-246a-4c3d-b58b-672340d63846.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/232581079-c364282b-17fd-4d0a-83bc-0407242b1926.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/232581087-f344941b-489d-4dac-b439-9a994309f9db.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/232581094-eb4bce4a-246a-4c3d-b58b-672340d63846.png"></img>
 
 Write a program that adds to a `travel_log`. Write a function to add or modify this `travel_log` to add the name of the country, how many times you've visited it, and which cities. <br />
 I've added the posibility to check the complete Travel Log, or just one country.<br />
@@ -423,9 +424,9 @@ I've added the posibility to check the complete Travel Log, or just one country.
 
 ### · The Secret Auction Program · <sub><sup>FINAL WORK</sup></sub>
 
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/232580555-dd5957da-2891-480a-8e54-dcb92ada056f.png"></img>
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/232580569-f2c9ee4d-6cba-499c-90ad-c862a27ccf6d.png"></img>
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/232580578-79bc2e11-d09e-44fd-806b-28949132fc79.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/232580555-dd5957da-2891-480a-8e54-dcb92ada056f.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/232580569-f2c9ee4d-6cba-499c-90ad-c862a27ccf6d.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/232580578-79bc2e11-d09e-44fd-806b-28949132fc79.png"></img>
 
 A firs-price sealed-bid auction (FPSBA) or Blind Aucion is a type of aution in wich all bidders simultaneously submit sealed bids, so that no other bidder knows the bid of any other participant. <br />
 
@@ -444,9 +445,9 @@ Then, create a function called `days_in_month( year , month )` that will use its
 
 ### · Calculator · <sub><sup>FINAL WORK</sup></sub>
 
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/232580041-436360a1-351b-4f13-bfaf-ce08da39d3b9.png"></img>
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/232580050-b60dea6f-c7b8-46f5-a85f-6df664d4e54b.png"></img>
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/232580057-08a98f35-e339-4a59-b4b8-ddc25efe6910.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/232580041-436360a1-351b-4f13-bfaf-ce08da39d3b9.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/232580050-b60dea6f-c7b8-46f5-a85f-6df664d4e54b.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/232580057-08a98f35-e339-4a59-b4b8-ddc25efe6910.png"></img>
 
 Make a calculator. In the project she said to ask three questions, the first number, the operator, and then the second number. I wanted to be able to write the operation itself, and that gave me the problem of... ¿What if I want to write a complicated operation that has more than two numbers? And of course I have to follow the order so multiply and so on goes first, then sum and subtraction, etc. <br />
 
@@ -494,9 +495,9 @@ result = ops[ operation ]( first_number , second_number ) # operation = '+' or '
 
 ### · The Blackjack Capstone Project · <sub><sup>FINAL WORK</sup></sub>
 
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/233442195-80e93422-1b48-4bd6-a374-b9e7815b3406.png"></img>
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/233442203-e77f29ab-dcd4-49d0-87d2-a9e574baecf1.png"></img>
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/233442211-21f667d4-d831-4982-9bfa-2e9193ff0478.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/233442195-80e93422-1b48-4bd6-a374-b9e7815b3406.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/233442203-e77f29ab-dcd4-49d0-87d2-a9e574baecf1.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/233442211-21f667d4-d831-4982-9bfa-2e9193ff0478.png"></img>
 
 Write a Simplifyed Blackjack game. <br />
 
@@ -516,9 +517,9 @@ Blackjack House rules:
 
 ### · The Number Guessing Game · <sub><sup>FINAL WORK</sup></sub>
 
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/233457978-1f718724-9560-4300-a848-f3ff33ad7527.png"></img>
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/233458000-ef0f66e1-3899-42f1-9afb-fbed3c9f33ae.png"></img>
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/233458005-0cf68244-872c-4f65-a4d6-7802a6a7d54d.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/233457978-1f718724-9560-4300-a848-f3ff33ad7527.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/233458000-ef0f66e1-3899-42f1-9afb-fbed3c9f33ae.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/233458005-0cf68244-872c-4f65-a4d6-7802a6a7d54d.png"></img>
 
 Make a game about guessing a random number bewteen 0 and 100. You have two levels, hard and easy, with 5 and 10 attempts to guess respectively. <br/>
 
@@ -533,9 +534,9 @@ NAH
 
 ### · The Higher Lower Game · <sub><sup>FINAL WORK</sup></sub>
 
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/233858095-620a2dcf-135d-4b87-8977-0f5afe5dc29f.png"></img>
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/233858096-ffc4ad8d-9aa4-480b-a0a9-6dccc2af5552.png"></img>
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/233858097-94b08096-fba4-48bc-a2f1-b56e42d5b5b7.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/233858095-620a2dcf-135d-4b87-8977-0f5afe5dc29f.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/233858096-ffc4ad8d-9aa4-480b-a0a9-6dccc2af5552.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/233858097-94b08096-fba4-48bc-a2f1-b56e42d5b5b7.png"></img>
 
 Make a game about guessing who has more followers on instagram from a made up list.
 
@@ -546,11 +547,11 @@ Make a game about guessing who has more followers on instagram from a made up li
 
 ### · The Coffee Machine · <sub><sup>FINAL WORK</sup></sub>
 
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/233858659-d1f683be-0ac5-4be3-8ab1-ae8aca001eb6.png"></img>
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/233858665-ce0146b3-d5db-4b5a-bd00-8d64de651e81.png"></img>
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/233858684-2a74a97c-7270-4c25-b7c8-253a106b125e.png"></img>
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/233858695-4f1aa664-1843-43e3-ab77-e977b4b1ebfc.png"></img>
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/233858699-a1b8a3c9-5cef-4030-b4c8-ced2cecf1843.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/233858659-d1f683be-0ac5-4be3-8ab1-ae8aca001eb6.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/233858665-ce0146b3-d5db-4b5a-bd00-8d64de651e81.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/233858684-2a74a97c-7270-4c25-b7c8-253a106b125e.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/233858695-4f1aa664-1843-43e3-ab77-e977b4b1ebfc.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/233858699-a1b8a3c9-5cef-4030-b4c8-ced2cecf1843.png"></img>
 
 Program requirements: [Coffee Machine Program Requirements](https://github.com/koalba/PythonCourse/files/11304573/Coffee%2BMachine%2BProgram%2BRequirements.pdf)
 
@@ -626,9 +627,9 @@ def manage_money( self , total : float , cost : float ):
 
 ### · The Quiz Game · <sub><sup>FINAL WORK</sup></sub>
 
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/234347300-4f96f21a-25ca-47bd-a36d-1da8375790a8.png"></img>
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/234347317-26389016-a13d-4d3c-b739-7aa7cf86213a.png"></img>
-<img width="33%" src="https://user-images.githubusercontent.com/34134103/234347328-044847d6-66f7-460f-b291-6ee1ecd7d6d3.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/234347300-4f96f21a-25ca-47bd-a36d-1da8375790a8.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/234347317-26389016-a13d-4d3c-b739-7aa7cf86213a.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/234347328-044847d6-66f7-460f-b291-6ee1ecd7d6d3.png"></img>
 
 Write a Quiz Game using the [Open Trivia Database](https://opentdb.com/).<br>
 
