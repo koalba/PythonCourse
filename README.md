@@ -620,10 +620,7 @@ def manage_money( self , total : float , cost : float ):
         print( f"\n    Here is your ${ change } in change." ) if not total == cost else ''
 ~~~
 
-<<<<<<< HEAD
 [![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/016_DAY16/00_CoffeeMachine)
-=======
-[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=3776AB&style=for-the-badge)](/016_DAY16/00_CoffeeMachine)
 
 ## DAY 17 - The Quiz Project & the Benefits of OOP:
 
@@ -640,10 +637,10 @@ She takes the json given by the Open Trivia Database, copy it and transform it o
 import requests, json
 
 def get_data( difficulty : str ):
-    res = requests.get(f'https://opentdb.com/api.php?amount=25&type=boolean&difficulty={ difficulty }')
+    url = 'https://opentdb.com/api.php?amount=25&type=boolean&difficulty='
+    res = requests.get( url + difficulty )
     data = json.loads( res.text )
     return data['results']
 ~~~
 
-[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=3776AB&style=for-the-badge)](/017_DAY17/00_Quiz)
->>>>>>> 2552fa30108070a0e9a076bd09ab310eb1dd763f
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/017_DAY17/00_Quiz)
