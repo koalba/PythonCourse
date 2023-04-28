@@ -33,6 +33,7 @@ Intermediate:
 - [x] DAY 15 - Local Development, Environment Setup & The Coffee Machine <sub><sup>23 April 2023</sup></sub>
 - [x] DAY 16 - Object Oriented Programming (OOP) <sub><sup>24 April 2023</sup></sub>
 - [x] DAY 17 - The Quiz Project & the Benefits of OOP <sub><sup>25 April 2023</sup></sub>
+- [x] DAY 18 - Turtle & the Graphical User Interface (GUI) <sub><sup>28 April 2023</sup></sub>
 - [ ] ...
   
 </details>
@@ -645,3 +646,98 @@ def get_data( difficulty : str ):
 ~~~
 
 [![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/017_DAY17/00_Quiz)
+
+## DAY 18 - Turtle & the Graphical User Interface (GUI)
+
+###  · The Turtle Challenge ·
+
+Using the Python Turtle Module:
+
+1. Create Tim the Turtle:
+~~~ python
+tim = Turtle()
+tim.shape('turtle')
+tim.color('yellowgreen')
+~~~
+
+2. Create a screen:
+~~~ python
+screen = Screen()
+screen.setup( WIDTH , HEIGHT )
+screen.exitonclick()
+~~~
+
+3. Make him draw a square:
+
+<img width="15%" src="https://user-images.githubusercontent.com/34134103/235200510-99a910f1-3b8d-4b89-afda-d86f2563e7f4.png"></img>
+
+~~~ python
+for _ in range(4):
+    tim.forward( 100 )
+    tim.right( 90 )
+~~~
+
+
+4. Make him draw a dashed line:
+
+<img width="20%" src="https://user-images.githubusercontent.com/34134103/235200987-2a25b526-e5ae-4da5-a2b2-f72e7957554c.png"></img>
+
+~~~ python
+for _ in range(50):
+    tim.fd( 10 )
+    if tim.isdown() : tim.penup()
+    else : tim.pendown()
+~~~
+
+5. Make him draw different shapes with random colors, one on top of the orher: 
+
+<img width="20%" src="https://user-images.githubusercontent.com/34134103/235202012-05ebb140-1f72-417f-937b-bc3a7c996a23.png"></img>
+
+~~~ python
+# triangle, square, pentagon, hexagon, heptagon, octagon, nonagon and decagon
+
+for num in range( 3, MAX_SIDES + 1 ):
+    tim.pencolor( tuple( random.choices(range(256), k=3) ) )
+
+    for _ in range( num ):
+        tim.fd( DEFAULT_SIDE_LENGTH )
+        tim.rt( 360 / num )
+~~~
+
+
+6. Generate a random walk: 
+
+<img width="25%" src="https://user-images.githubusercontent.com/34134103/235202827-fe36afad-6a49-4e5a-b4f4-2f9ecb8a78dc.png"></img>
+
+~~~ python!
+while True:
+
+    r = random.randint(0, 250)
+    g = random.randint(0, 250)
+    b = 255
+
+    tim.pencolor( r , g , b )
+    tim.fd( 10 )
+
+    tim.rt( random.choice([ 0, 90, 180, 270, 360 ]) )
+~~~
+
+4. Make a Sphirograph: 
+
+<img width="25%" src="https://user-images.githubusercontent.com/34134103/235203348-49d18048-465f-4d8d-a703-2a8fa99079b0.png"></img>
+
+
+~~~ python
+for _ in range(100):
+    
+    r = random.randint(0, 250)
+    g = random.randint(0, 250)
+    b = 255
+
+    tim.pencolor( r , g , b )
+
+    tim.circle(LEN_CIRCLES)
+    tim.rt( 360 / LEN_CIRCLES )
+~~~
+
+###  · The Hirst Painting · <sub><sup>FINAL WORK</sup></sub>
