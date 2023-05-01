@@ -34,6 +34,7 @@ Intermediate:
 - [x] DAY 16 - Object Oriented Programming (OOP) <sub><sup>24 April 2023</sup></sub>
 - [x] DAY 17 - The Quiz Project & the Benefits of OOP <sub><sup>25 April 2023</sup></sub>
 - [x] DAY 18 - Turtle & the Graphical User Interface (GUI) <sub><sup>28 April 2023</sup></sub>
+- [x] DAY 19 - Instances, State and Higher Order Functions <sub><sup>1 May 2023</sup></sub>
 - [ ] ...
   
 </details>
