@@ -677,6 +677,7 @@ for _ in range(4):
     tim.right( 90 )
 ~~~
 
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/018_DAY18/00_TurtleChallenge/00_TurtleChallenge1)
 
 4. Make him draw a dashed line:
 
@@ -688,6 +689,8 @@ for _ in range(50):
     if tim.isdown() : tim.penup()
     else : tim.pendown()
 ~~~
+
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/018_DAY18/00_TurtleChallenge/01_TurtleChallenge2)
 
 5. Make him draw different shapes with random colors, one on top of the orher: 
 
@@ -704,6 +707,7 @@ for num in range( 3, MAX_SIDES + 1 ):
         tim.rt( 360 / num )
 ~~~
 
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/018_DAY18/00_TurtleChallenge/02_TurtleChallenge3)
 
 6. Generate a random walk: 
 
@@ -722,10 +726,11 @@ while True:
     tim.rt( random.choice([ 0, 90, 180, 270, 360 ]) )
 ~~~
 
-4. Make a Sphirograph: 
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/018_DAY18/00_TurtleChallenge/03_TurtleChallenge4)
+
+7. Make a Sphirograph: 
 
 <img width="25%" src="https://user-images.githubusercontent.com/34134103/235203348-49d18048-465f-4d8d-a703-2a8fa99079b0.png"></img>
-
 
 ~~~ python
 for _ in range(100):
@@ -740,4 +745,33 @@ for _ in range(100):
     tim.rt( 360 / LEN_CIRCLES )
 ~~~
 
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/018_DAY18/00_TurtleChallenge/04_TurtleChallenge5)
+
 ###  · The Hirst Painting · <sub><sup>FINAL WORK</sup></sub>
+
+<img width="25%" src="https://user-images.githubusercontent.com/34134103/235434518-01a89c2b-cdc0-477c-b476-7b36ac9dcbb1.png"></img>
+
+Make a 'Hirst' Dot painting, getting the pallete from one of his paintings using `colorgram.py`.
+
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/018_DAY18/01_TheHirstPainting)
+
+## DAY 19 - Instances, State and Higher Order Functions
+
+###  · The Etch-A-Sketch App ·
+<img width="25%" src="https://user-images.githubusercontent.com/34134103/235439805-4e1811c9-674a-4d06-95b8-5b7f03a66d20.png"></img>
+
+Create a Etch-A-Sketch Game App.
+| w       | a           | s        | d            | c            |
+|---------|-------------|----------|--------------|--------------|
+| forward | rotate left | backward | rotate right | clear screen |
+
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/019_DAY19/00_EtchASketchApp)
+
+###  · The Turtle Race · <sub><sup>FINAL WORK</sup></sub>
+
+<img width="25%" src="https://user-images.githubusercontent.com/34134103/235442944-71910356-bad8-427d-acb6-d42c51954e48.png"></img>
+<img width="25%" src="https://user-images.githubusercontent.com/34134103/235442946-851ba2b9-3a05-4ac0-8b7f-0a5d5ac3a2b1.png"></img>
+
+Make a turtle race, in which the user can bet with Turtle will win.
+
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/019_DAY19/01_TurtleRace)
