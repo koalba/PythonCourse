@@ -34,6 +34,8 @@ Intermediate:
 - [x] DAY 16 - Object Oriented Programming (OOP) <sub><sup>24 April 2023</sup></sub>
 - [x] DAY 17 - The Quiz Project & the Benefits of OOP <sub><sup>25 April 2023</sup></sub>
 - [x] DAY 18 - Turtle & the Graphical User Interface (GUI) <sub><sup>28 April 2023</sup></sub>
+- [x] DAY 19 - Instances, State and Higher Order Functions <sub><sup>1 May 2023</sup></sub>
+- [x] DAY 20 - Build the Snake Game: Part 1 <sub><sup>4 May 2023</sup></sub>
 - [ ] ...
   
 </details>
@@ -677,6 +679,7 @@ for _ in range(4):
     tim.right( 90 )
 ~~~
 
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/018_DAY18/00_TurtleChallenge/00_TurtleChallenge1)
 
 4. Make him draw a dashed line:
 
@@ -688,6 +691,8 @@ for _ in range(50):
     if tim.isdown() : tim.penup()
     else : tim.pendown()
 ~~~
+
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/018_DAY18/00_TurtleChallenge/01_TurtleChallenge2)
 
 5. Make him draw different shapes with random colors, one on top of the orher: 
 
@@ -704,6 +709,7 @@ for num in range( 3, MAX_SIDES + 1 ):
         tim.rt( 360 / num )
 ~~~
 
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/018_DAY18/00_TurtleChallenge/02_TurtleChallenge3)
 
 6. Generate a random walk: 
 
@@ -722,10 +728,11 @@ while True:
     tim.rt( random.choice([ 0, 90, 180, 270, 360 ]) )
 ~~~
 
-4. Make a Sphirograph: 
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/018_DAY18/00_TurtleChallenge/03_TurtleChallenge4)
+
+7. Make a Sphirograph: 
 
 <img width="25%" src="https://user-images.githubusercontent.com/34134103/235203348-49d18048-465f-4d8d-a703-2a8fa99079b0.png"></img>
-
 
 ~~~ python
 for _ in range(100):
@@ -740,4 +747,151 @@ for _ in range(100):
     tim.rt( 360 / LEN_CIRCLES )
 ~~~
 
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/018_DAY18/00_TurtleChallenge/04_TurtleChallenge5)
+
 ###  · The Hirst Painting · <sub><sup>FINAL WORK</sup></sub>
+
+<img width="25%" src="https://user-images.githubusercontent.com/34134103/235434518-01a89c2b-cdc0-477c-b476-7b36ac9dcbb1.png"></img>
+
+Make a 'Hirst' Dot painting, getting the pallete from one of his paintings using `colorgram.py`.
+
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/018_DAY18/01_TheHirstPainting)
+
+## DAY 19 - Instances, State and Higher Order Functions
+
+###  · The Etch-A-Sketch App ·
+<img width="25%" src="https://user-images.githubusercontent.com/34134103/235439805-4e1811c9-674a-4d06-95b8-5b7f03a66d20.png"></img>
+
+Create a Etch-A-Sketch Game App.
+| w       | a           | s        | d            | c            |
+|---------|-------------|----------|--------------|--------------|
+| forward | rotate left | backward | rotate right | clear screen |
+
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/019_DAY19/00_EtchASketchApp)
+
+###  · The Turtle Race · <sub><sup>FINAL WORK</sup></sub>
+
+<img width="25%" src="https://user-images.githubusercontent.com/34134103/235442944-71910356-bad8-427d-acb6-d42c51954e48.png"></img>
+<img width="25%" src="https://user-images.githubusercontent.com/34134103/235442946-851ba2b9-3a05-4ac0-8b7f-0a5d5ac3a2b1.png"></img>
+
+Make a turtle race, in which the user can bet with Turtle will win.
+
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/019_DAY19/01_TurtleRace)
+
+## DAY 20 - Build the Snake Game: Part 1
+
+###  · Creating a Snake Body ·
+
+I created a list to save all the snake's body segments. Each segment is a different turtle placed so that it appears a snake.
+
+~~~ python
+START_BODY_LENGTH : int = 3
+SEGMENT_SIZE      : int = 20
+
+snake_body = []
+
+for i in range( START_BODY_LENGTH ):
+      segment = Turtle('square')
+
+      segment.penup()
+      segment.color('white')
+      segment.setx( - SEGMENT_SIZE * i )
+
+      snake_body.append(segment)
+~~~
+<br>
+
+###  · Animating the Snake Segments ·
+
+For this part, I had to use `s.tracer(0)`, which basically stops the screen from updating, so I can update it later manually, because if not, you would see each segment moving one by one, and the result wanted was to move all the body at once, so I wanted to update it the moment all the segments has already moved. To slow down the movement and make it playable, I used `time.sleep(0.1)`.
+
+~~~ python
+s.tracer(0) 
+
+game_is_on = True
+
+while game_is_on:
+    s.update()
+    time.sleep(0.1)
+
+    for num in range( len( snake_body ) - 1 , 0 , -1 ):
+            x_cor = snake_body[ num - 1 ].xcor()
+            y_cor = snake_body[ num - 1 ].ycor()
+
+            snake_body[ num ].goto( x_cor , y_cor )
+
+    snake_body[0].forward( SPEED )
+~~~
+<br>
+
+###  · Creating a Snake Class ·
+
+I then moved all this parts into another file with a `Snake` class in it, so it could manage everything the snake does and how it is created.
+
+~~~~ python
+class Snake:
+    snake_body = []
+
+    def __init__( self ):
+        self.create_snake()
+        self.head = self.snake_body[0]
+
+    def create_snake( self ):
+        for i in range( START_BODY_LENGTH ):
+            segment = Turtle('square')
+
+            segment.penup()
+            segment.color('white')
+            segment.setx( - SEGMENT_SIZE * i )
+
+            self.snake_body.append(segment)
+
+    def move( self ):
+        for num in range( len( self.snake_body ) - 1 , 0 , -1 ):
+            x_cor = self.snake_body[ num - 1 ].xcor()
+            y_cor = self.snake_body[ num - 1 ].ycor()
+
+            self.snake_body[ num ].goto( x_cor , y_cor )
+
+        self.head.forward( SPEED )
+~~~~
+<br>
+
+###  · Control the Snake with a Keypress · <sub><sup>FINAL WORK</sup></sub>
+
+Finally, I started managing the user input, for this, I used `s.listen()` to focus on the window, and `s.onkey()` to get the user's movement imput. <br>
+
+~~~~ python
+s.listen()
+s.onkey( snake.up    , 'Up'   )
+s.onkey( snake.down  , 'Down' )
+s.onkey( snake.left  , 'Left' )
+s.onkey( snake.right , 'Right')
+~~~~
+
+Then, in the `Snake` class, I made four methods for each movement, having in mind that the snake could not completely change directions, just turn.
+
+~~~~ python
+RIGHT = 0
+UP    = 90
+LEFT  = 180
+DOWN  = 270
+
+def up( self ):
+    if self.head.heading() != DOWN:
+        self.head.setheading( UP )
+
+def down( self ):
+    if self.head.heading() != UP:
+        self.head.setheading( DOWN )
+
+def left( self ):
+    if self.head.heading() != RIGHT:
+        self.head.setheading( LEFT )
+
+def right( self ):
+    if self.head.heading() != LEFT:
+        self.head.setheading( RIGHT )
+~~~~
+
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/020_DAY20/00_SnakeGame1)
