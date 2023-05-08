@@ -35,7 +35,9 @@ Intermediate:
 - [x] DAY 17 - The Quiz Project & the Benefits of OOP <sub><sup>25 April 2023</sup></sub>
 - [x] DAY 18 - Turtle & the Graphical User Interface (GUI) <sub><sup>28 April 2023</sup></sub>
 - [x] DAY 19 - Instances, State and Higher Order Functions <sub><sup>1 May 2023</sup></sub>
-- [x] DAY 20 - Build the Snake Game: Part 1 <sub><sup>4 May 2023</sup></sub>
+- [x] DAY 20 - Build the Snake Game Part 1 : Animation & Coordinates <sub><sup>4 May 2023</sup></sub>
+- [x] DAY 21 - Build the Snake Game Part 2 : Inheritance & List Slicing <sub><sup>8 May 2023</sup></sub>
+- [x] DAY 22 - Build Pong: The Famous Arcade Game <sub><sup>8 May 2023</sup></sub>
 - [ ] ...
   
 </details>
@@ -778,7 +780,7 @@ Make a turtle race, in which the user can bet with Turtle will win.
 
 [![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/019_DAY19/01_TurtleRace)
 
-## DAY 20 - Build the Snake Game: Part 1
+## DAY 20 - Build the Snake Game Part 1 : Animation & Coordinates
 
 ###  · Creating a Snake Body ·
 
@@ -895,3 +897,53 @@ def right( self ):
 ~~~~
 
 [![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/020_DAY20/00_SnakeGame1)
+
+## DAY 21 - Build the Snake Game Part 2 : Inheritance & List Slicing
+
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/236880179-78054368-576d-4cb9-a014-521ba2d287ac.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/236880195-820f8378-2f7d-4ac9-9ba5-5fdb4325d793.png"></img>
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/236880199-ab16bd9c-a31e-46a9-bdb3-69110098b569.png"></img>
+
+###  · Detect Collisions with Food · 
+~~~ python
+def detect_food_collision( self ):
+    # Detect collision with food
+    if self.snake.head.distance( self.food ) < 15:
+        self.food.refresh()
+        self.snake.extend()
+        self.scoreboard.increase_score()
+~~~
+
+###  · Detect Collisions with the Wall · 
+~~~ python
+def detect_wall_collision( self ):
+    # Detect collision with wall
+    if self.snake.head.xcor() > 290 or self.snake.head.xcor() < -290 or self.snake.head.ycor() > 290 or self.snake.head.ycor() < -290:
+        self.scoreboard.game_over()
+
+        self.game_is_on = False
+        self.game_over()
+~~~
+
+###  · Detect Collisions with Your Own Tail · <sub><sup>FINAL WORK</sup></sub>
+~~~ python
+def detect_self_collision( self ):
+    # Detect collision with tail
+    for segment in self.snake.snake_body[1:]:
+        if self.snake.head.distance( segment ) < 5:
+            self.scoreboard.game_over()
+            self.game_is_on = False
+            self.game_over()
+~~~
+
+I also made a little menu, where you can either start the game or close it. You can also restart the game if you fail, and it keeps track of your best score in the game.
+
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/021_DAY21/00_SnakeGame2)
+
+## DAY 22 - Build Pong: The Famous Arcade Game
+
+<img width="32%" src="https://user-images.githubusercontent.com/34134103/236918330-9b07029e-2432-4304-b24b-cd185c379220.png"></img>
+
+Make a Pong Game. This time, I couldn't bother to make a menu because I want to advance faster...
+
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/022_DAY22/00_PongGame)
