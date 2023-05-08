@@ -7,8 +7,12 @@ FOOD = [
         'shape' : 'triangle'
     },
     {
-        'color' : 'purple',
+        'color' : 'mediumpurple1',
         'shape' : 'circle'
+    },
+    {
+        'color' : 'mediumspringgreen',
+        'shape' : 'square'
     }
 ]
 
