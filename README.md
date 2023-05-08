@@ -38,6 +38,8 @@ Intermediate:
 - [x] DAY 20 - Build the Snake Game Part 1 : Animation & Coordinates <sub><sup>4 May 2023</sup></sub>
 - [x] DAY 21 - Build the Snake Game Part 2 : Inheritance & List Slicing <sub><sup>8 May 2023</sup></sub>
 - [x] DAY 22 - Build Pong: The Famous Arcade Game <sub><sup>8 May 2023</sup></sub>
+- [ ] DAY 23 - The Turtle Crossing Capstone Project
+- [x] DAY 24 - Files, Directories and Paths
 - [ ] ...
   
 </details>
@@ -947,3 +949,11 @@ I also made a little menu, where you can either start the game or close it. You 
 Make a Pong Game. This time, I couldn't bother to make a menu because I want to advance faster...
 
 [![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/022_DAY22/00_PongGame)
+
+## DAY 23 - The Turtle Crossing Capstone Project
+
+I might do this in the future, too many similar projects, and I want to advance.
+
+## DAY 24 - Files, Directories and Paths
+
+###  · Add a High Score to the Snake Game · <sub><sup>FINAL WORK</sup></sub>
