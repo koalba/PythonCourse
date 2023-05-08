@@ -35,7 +35,9 @@ Intermediate:
 - [x] DAY 17 - The Quiz Project & the Benefits of OOP <sub><sup>25 April 2023</sup></sub>
 - [x] DAY 18 - Turtle & the Graphical User Interface (GUI) <sub><sup>28 April 2023</sup></sub>
 - [x] DAY 19 - Instances, State and Higher Order Functions <sub><sup>1 May 2023</sup></sub>
-- [x] DAY 20 - Build the Snake Game: Part 1 <sub><sup>4 May 2023</sup></sub>
+- [x] DAY 20 - Build the Snake Game Part 1 : Animation & Coordinates <sub><sup>4 May 2023</sup></sub>
+- [x] DAY 21 - Build the Snake Game Part 2 : Inheritance & List Slicing <sub><sup>8 May 2023</sup></sub>
+- [x] DAY 22 - Build Pong: The Famous Arcade Game <sub><sup>8 May 2023</sup></sub>
 - [ ] ...
   
 </details>
@@ -778,7 +780,7 @@ Make a turtle race, in which the user can bet with Turtle will win.
 
 [![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/019_DAY19/01_TurtleRace)
 
-## DAY 20 - Build the Snake Game: Part 1
+## DAY 20 - Build the Snake Game Part 1 : Animation & Coordinates
 
 ###  · Creating a Snake Body ·
 
@@ -937,3 +939,134 @@ def detect_self_collision( self ):
 I also made a little menu, where you can either start the game or close it. You can also restart the game if you fail, and it keeps track of your best score in the game.
 
 [![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/021_DAY21/00_SnakeGame2)
+
+## DAY 22 - Build Pong: The Famous Arcade Game
+
+Make a Pong Game. This time, I couldn't bother to make a menu because I want to advance faster...
+
+###  · Create and move a paddle ·
+~~~ python
+SPEED = 20
+
+class Paddle(Turtle):
+    def __init__( self , coor ) -> None:
+        super().__init__()
+
+        self.shape('square')
+        self.penup()
+        self.color('white')
+        self.shapesize( 1 , 5 ) # 20 x 100
+
+        self.setheading(90)
+        self.goto( coor )
+
+    def up( self ):
+        if self.ycor() + 50 < 250:
+            self.forward( SPEED )
+
+    def down( self ):
+        if self.ycor() - 50 > -250:
+            self.backward( SPEED )
+~~~
+
+###  · Create the ball and make it move ·
+~~~ python
+class Ball(Turtle):
+
+    def __init__( self ):
+        super().__init__()
+
+        self.shape('circle')
+        self.color('white')
+        self.penup()
+
+        self.reset()
+
+        self.move_speed = .005
+
+    def move( self ):
+        new_x = self.xcor() + 1 * self.dir_x
+        new_y = self.ycor() + 1 * self.dir_y
+        self.goto( new_x , new_y )
+
+        self.detect_wall_collision()
+ ~~~
+ 
+###  · Detect collision with wall and bouce ·
+~~~ python
+def detect_wall_collision( self ):
+        if self.ycor() >= 233 or self.ycor() <= -230:
+            self.dir_y *= -1
+~~~
+
+###  · Detect collision with paddle ·
+~~~ python
+def detect_paddle_collision( self , paddle : Turtle ):
+        if paddle.xcor() < 0:
+            check_xcor = self.xcor() < paddle.xcor() + 20
+            check_xcor2 = self.xcor() < paddle.xcor() + 10 and self.xcor() > paddle.xcor() - 20
+            check_xcor3 = self.xcor() < paddle.xcor() + 20
+        else:
+            check_xcor = self.xcor() > paddle.xcor() - 20
+            check_xcor2 = self.xcor() > paddle.xcor() - 10 and self.xcor() < paddle.xcor() + 20
+            check_xcor3 = self.xcor() > paddle.xcor() - 20
+
+        if check_xcor and self.ycor() < paddle.ycor() + 50 and self.ycor() > paddle.ycor() - 50:
+            self.dir_x *= -1
+            self.move_speed *= .9
+
+        elif check_xcor2 and self.ycor() < paddle.ycor() + 60 and self.ycor() > paddle.ycor() - 60:
+            self.dir_y *= -1
+            self.move_speed *= .9
+
+        elif check_xcor3 and self.ycor() < paddle.ycor() + 60 and self.ycor() > paddle.ycor() - 60:
+            self.dir_x *= -1
+            self.dir_y *= -1
+            self.move_speed *= .9
+~~~
+
+###  · Detect when paddle misses ·
+~~~ python
+if ball.xcor() > 390:
+        ball.reset()
+    elif ball.xcor() < -390:
+        ball.reset()
+~~~
+
+###  · Keep Score · <sub><sup>FINAL WORK</sup></sub>
+~~~ python
+if ball.xcor() > 390:
+        scoreboard.increase_score( players[0]['name'] )
+        ball.reset()
+    elif ball.xcor() < -390:
+        scoreboard.increase_score( players[1]['name'] )
+        ball.reset()
+~~~
+~~~ python
+class Scoreboard(Turtle):
+    scores = {
+        'Player 1' : 0,
+        'Player 2' : 0    
+    }
+
+    def __init__( self ):
+        super().__init__()
+
+        self.hideturtle()
+        self.pencolor('white')
+        self.penup()
+
+        self.update_score()
+
+    def increase_score( self , player ):
+        self.scores[player] += 1
+        self.update_score()
+
+    def update_score( self ):
+        self.clear()
+        for i, player in enumerate( self.scores ):
+            self.goto( -200 if i == 0 else 200 , 220 )
+            self.write(f'{ player }: { self.scores[player] }', False , 'center', ('Courier', 16 , 'normal'))
+~~~
+
+[![See Project Folder](https://img.shields.io/static/v1?label=&message=See%20Project%20Folder&color=373e47&style=for-the-badge)](/022_DAY22/00_PongGame)
